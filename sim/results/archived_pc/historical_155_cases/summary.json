@@ -1,0 +1,89 @@
+{
+  "updated_at": "2026-10-31T19:36:49+08:00",
+  "source_files_provided": true,
+  "tested_recordings": 19,
+  "batch_files": 14,
+  "new_enrolled_count": 11,
+  "excluded_files": [
+    "周杰伦 - 夜曲.mp3"
+  ],
+  "indexed_recordings": 16,
+  "indexed_artists": 11,
+  "held_out_recordings": 3,
+  "held_out_songs": [
+    {
+      "title": "起风了",
+      "artist": "冯沁苑(买辣椒也用券)"
+    },
+    {
+      "title": "雨下一整晚",
+      "artist": "周杰伦"
+    },
+    {
+      "title": "达尔文",
+      "artist": "林俊杰"
+    }
+  ],
+  "initial_library_count": 5,
+  "current_library_count": 16,
+  "case_count": 155,
+  "passed": 155,
+  "failed": 0,
+  "groups": {
+    "known_original": {
+      "cases": 80,
+      "passed": 80
+    },
+    "known_gain_0.15_10dB_SNR": {
+      "cases": 32,
+      "passed": 32
+    },
+    "known_left_PCM16_Q16_FIR_UART_model": {
+      "cases": 16,
+      "passed": 16
+    },
+    "unknown_holdout_original": {
+      "cases": 15,
+      "passed": 15
+    },
+    "unknown_holdout_gain_0.15_10dB_SNR": {
+      "cases": 6,
+      "passed": 6
+    },
+    "unknown_holdout_left_PCM16_Q16_FIR_UART_model": {
+      "cases": 3,
+      "passed": 3
+    },
+    "silence": {
+      "cases": 1,
+      "passed": 1
+    },
+    "white_noise": {
+      "cases": 1,
+      "passed": 1
+    },
+    "ROM_dual_tone": {
+      "cases": 1,
+      "passed": 1
+    }
+  },
+  "all_offline_cases_pass": true,
+  "production_committed": true,
+  "actual_recordings_used": true,
+  "matching_thresholds_changed": false,
+  "matcher_sha256": "abab828753458f6fe979a845e7eef14e9f1d4fdf175112d3d3d0d0843985abd1",
+  "query_source": "Known clips come from enrolled recordings; all holdout files remain absent from the index",
+  "limitations": [
+    "Test matrix on these exact recordings; not a general recognition-rate claim",
+    "Digital gain/noise and FIR/UART models do not measure physical MIC or LINE IN",
+    "Query compute time excludes eight-second capture and live two-query confirmation"
+  ],
+  "physical_hardware_tested": false,
+  "hardware_programmed": false,
+  "flash_written": false,
+  "real_line_in_recognition_accepted": false,
+  "real_mic_recognition_accepted": false,
+  "physical_song_title_lcd_accepted": false,
+  "stability_30min_accepted": false,
+  "library_sha256": "df10f3eae4da3e234328fde21da6ca4e8ad97e29be0d66367caf8ff52b864169"
+}

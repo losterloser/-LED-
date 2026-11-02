@@ -1,0 +1,5 @@
+action=program
+device=xc7z010_1
+flash_written=0
+programmed=1
+ila_count=1

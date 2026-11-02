@@ -1,0 +1,23 @@
+{
+  "completed_on": "2026-11-02",
+  "video": {
+    "bytes": 284413551,
+    "sample_entry_types": [
+      "avc1",
+      "mp4a"
+    ],
+    "duration_seconds": 175.08
+  },
+  "sha256": "75ed0a983540e7828a94bb725dad1cf6ed5c70fda276b640af6a331a39050502",
+  "higher_quality_source_sha256": "c54a10553a24e944d0e053af605947ad935b4236406196eab4f94e0d55214c47",
+  "original_submitted_hevc_sha256": "612f6404e01f2d646d17dfc27efed8bd41d4ab1855f776ac73fa5607c49550f4",
+  "original_sources_preserved": true,
+  "encoder": "NVIDIA NVENC H.264 high, 3840x2160, 30 fps, target 12.5 Mbps, max 12.8 Mbps",
+  "audio_copied": true,
+  "audio_packet_sha256": "40a343d7db0586714147b332f5d4423ec53b57083d4b275dae5e1523aadbdd27",
+  "video_full_decode_exit_code": 0,
+  "frames_visually_checked_seconds": [
+    125
+  ],
+  "scope": "Codec/size compatibility copy, no new functional hardware acceptance"
+}

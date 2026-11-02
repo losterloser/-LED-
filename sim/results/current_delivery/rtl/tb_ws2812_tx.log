@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+PASS tb_ws2812_tx: 384 bits, GRB/MSB order, 350/650 ns highs, 1250 ns period, 400 us reset, locked frame and reset recovery
+$finish called at time : 3440705 ns : File "R:/sim/tb/tb_ws2812_tx.sv" Line 73

@@ -1,0 +1,1 @@
+{"samples": 1024, "fft_points": 1024, "max_complex_error": 81.04166221709755, "relative_l2_error": 1.9694898623443508e-05, "dominant_positive_bins": [64, 16]}

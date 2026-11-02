@@ -1,0 +1,18 @@
+{
+  "timing_report": "build/reports/timing_impl.txt",
+  "utilization_report": "build/reports/utilization_impl.txt",
+  "check_timing_report": "build/reports/check_timing_impl.txt",
+  "bus_skew_report": "build/reports/bus_skew_impl.txt",
+  "minimum_setup_wns_ns": 0,
+  "minimum_hold_whs_ns": 0,
+  "maximum_resources": {
+    "Slice LUTs": 17600,
+    "Slice Registers": 35200,
+    "Block RAM Tile": 60,
+    "DSPs": 80
+  },
+  "zero_timing_checks": [
+    "no_clock",
+    "unconstrained_internal_endpoints"
+  ]
+}

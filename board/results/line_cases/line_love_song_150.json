@@ -1,0 +1,19 @@
+{
+  "title": "Love Song",
+  "artist": "方大同",
+  "mode": "LINE",
+  "expected": "known",
+  "source_start_seconds": 150.719,
+  "duration_seconds": 20,
+  "full_window_observation_delay_seconds": 12,
+  "fresh_events": 11,
+  "correct_recognized_events": 11,
+  "unexpected_identity_events": [],
+  "crc_error_delta": 0,
+  "dropped_delta": 0,
+  "gap_delta": 0,
+  "identity_passed": true,
+  "pc_log_passed": true,
+  "physical_audio_loop": true,
+  "physical_lcd_observation_pending": true
+}

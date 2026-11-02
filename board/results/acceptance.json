@@ -1,0 +1,49 @@
+{
+  "recorded_at": "2026-11-01T23:06:24+08:00",
+  "scope": "public repository snapshot; source and physical observations are distinguished",
+  "board": "ATK-DF7010/7020P V3.9, XC7Z010CLG400-1",
+  "software_version": "local-v0.3.2",
+  "latest_jtag_programming_passed": true,
+  "image_usr_access": "0x4E375231",
+  "flash_written": false,
+  "line_audio_capture_user_accepted": true,
+  "mic_audio_capture_user_accepted": true,
+  "physical_chinese_lcd_historically_accepted": true,
+  "line_identification_historical_songs": 5,
+  "line_identification_historical_excerpts": 15,
+  "current_rgb_ring_connected": true,
+  "lcd_color_bars_user_accepted": true,
+  "rgb_ring_selftest_user_accepted": true,
+  "rgb_ring_current_music_response_accepted": false,
+  "current_title_stability_hardware_accepted": false,
+  "current_song_change_silence_recovery_hardware_accepted": false,
+  "integrated_stability_30min_accepted": false,
+  "video_recorded": true,
+  "pending": [
+    "Current-version continuous title display on PC and physical LCD",
+    "Current-version song change, silence, unknown and recovery tests",
+    "Current music-driven ring response",
+    "30-minute integrated stability"
+  ],
+  "user_observations": [
+    {
+      "date": "2026-11-01",
+      "text": "现在line in 和mic采集都已经验收成功了",
+      "meaning": "audio acquisition only"
+    },
+    {
+      "date": "2026-11-01",
+      "text": "彩条正确，灯环逐灯点亮",
+      "meaning": "current LCD color bars and ring chase self-test accepted; not music response"
+    }
+  ],
+  "archive_update_20261102": {
+    "recorded_at": "2026-11-02T19:17:56+08:00",
+    "scope": "cross-chat materials organization only; no new hardware operation",
+    "demo_file_available": true,
+    "demo_path": "report/media/demo.mp4",
+    "video_completion_source": "方案2 chat: final export and compression completed 2026-11-02",
+    "video_is_not_30min_test": true,
+    "hardware_acceptance_flags_unchanged": true
+  }
+}

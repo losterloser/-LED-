@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+PASS tb_spectrum_pipeline: 4 real FFT frames, bins 16/64, bands 7/11, no drops
+$finish called at time : 2715060 ns : File "R:/sim/tb_spectrum_pipeline.sv" Line 66
+INFO: xsimkernel Simulation Memory Usage: 26724 KB (Peak: 26724 KB), Simulation CPU Usage: 32202 ms

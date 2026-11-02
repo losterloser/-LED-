@@ -1,0 +1,36 @@
+{
+  "algorithm_rules_unchanged": true,
+  "modules": [
+    {
+      "module": "src/pc/songid.py",
+      "source_sha256": "e94e737f8e3e21c5a00f2f0e30af452b9338ad6d570b34d79c6b41b40a36547a",
+      "packaged_sha256": "e94e737f8e3e21c5a00f2f0e30af452b9338ad6d570b34d79c6b41b40a36547a",
+      "scope": "byte-identical production module"
+    },
+    {
+      "module": "src/pc/recognition_tracker.py",
+      "source_sha256": "bacec78e83323c0c76767686ae27cb784ffac586fc70bc5bcce8bbfb9540a76b",
+      "packaged_sha256": "bacec78e83323c0c76767686ae27cb784ffac586fc70bc5bcce8bbfb9540a76b",
+      "scope": "byte-identical production module"
+    },
+    {
+      "module": "src/pc/link_protocol.py",
+      "source_sha256": "7c2ec1c201dfc20b01d4e6e15d3c8df70644cf102eebe377ff2503f87b1501a5",
+      "packaged_sha256": "7c2ec1c201dfc20b01d4e6e15d3c8df70644cf102eebe377ff2503f87b1501a5",
+      "scope": "byte-identical production module"
+    },
+    {
+      "module": "src/pc/desktop.py",
+      "source_sha256": "6898e001e184079fd18d9631f34d99140ac98a70fcf76fd09ef2315712f638ba",
+      "packaged_sha256": "6898e001e184079fd18d9631f34d99140ac98a70fcf76fd09ef2315712f638ba",
+      "scope": "byte-identical production module"
+    },
+    {
+      "module": "src/pc/live.py",
+      "source_sha256": "2e2970a1c586a3b6815a0a278665a58141b89998fe16ab1c871f388742d04e31",
+      "packaged_sha256": "dbba3435795adeea5850538d3f05a308e629865a8811c501945994f1459bad62",
+      "scope": "only runtime log output path changed"
+    }
+  ],
+  "python_syntax_checked": true
+}

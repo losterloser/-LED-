@@ -1,0 +1,70 @@
+{
+  "organized_at": "2026-11-02T19:17:56+08:00",
+  "version": "local-v0.3.2",
+  "materials": [
+    {
+      "path": "report/design_report.pdf",
+      "role": "user_final_report",
+      "bytes": 1070920,
+      "sha256": "edcadf2e1d862a87c7d41f4a0226c34ad35dca0c1da1b47b9900a9a2534386f9",
+      "source_sha256": "edcadf2e1d862a87c7d41f4a0226c34ad35dca0c1da1b47b9900a9a2534386f9"
+    },
+    {
+      "path": "report/design_report.docx",
+      "role": "editable_report_source",
+      "bytes": 1954095,
+      "sha256": "e68a91baef5fccaae0e3bc1422e21954a10542e0736c2f5e4860619a76c9350a",
+      "source_sha256": "e68a91baef5fccaae0e3bc1422e21954a10542e0736c2f5e4860619a76c9350a"
+    },
+    {
+      "path": "report/media/demo.mp4",
+      "role": "derived_h264_submission_video",
+      "bytes": 284413551,
+      "sha256": "75ed0a983540e7828a94bb725dad1cf6ed5c70fda276b640af6a331a39050502",
+      "source_sha256": "c54a10553a24e944d0e053af605947ad935b4236406196eab4f94e0d55214c47",
+      "transcoded": true,
+      "original_submitted_hevc_sha256": "612f6404e01f2d646d17dfc27efed8bd41d4ab1855f776ac73fa5607c49550f4"
+    },
+    {
+      "path": "report/poster/poster_bilingual.pdf",
+      "role": "final_poster_pdf",
+      "bytes": 5740597,
+      "sha256": "96431bf4a0a67f40f1cb648a14a1c46c82cf55810f63d5d696767464b3ff1bf3",
+      "source_sha256": "96431bf4a0a67f40f1cb648a14a1c46c82cf55810f63d5d696767464b3ff1bf3"
+    },
+    {
+      "path": "report/poster/poster_bilingual.pptx",
+      "role": "final_poster_pptx",
+      "bytes": 621471,
+      "sha256": "fdcc67b44ace1ac6a64bb586c9e8e6de0421f38408f6a5b13fec647026631805",
+      "source_sha256": "fdcc67b44ace1ac6a64bb586c9e8e6de0421f38408f6a5b13fec647026631805"
+    },
+    {
+      "path": "data/library/fingerprints.zip",
+      "role": "derived_fingerprint_library",
+      "bytes": 60474320,
+      "sha256": "a489875a784ec02577de1e688bc46a6d74d48684461c42d291d643b4810768d3",
+      "source_sha256": "a489875a784ec02577de1e688bc46a6d74d48684461c42d291d643b4810768d3"
+    },
+    {
+      "path": "report/media/voiceover.txt",
+      "role": "final_voiceover_script",
+      "bytes": 1876,
+      "sha256": "5fab09d272368661a9ec40fed9f8c5600a01124e7d3251eb663b89bdd0363a6f",
+      "source_sha256": "5fab09d272368661a9ec40fed9f8c5600a01124e7d3251eb663b89bdd0363a6f"
+    }
+  ],
+  "report_bytes_preserved": true,
+  "original_project_preserved": true,
+  "new_hardware_actions": false,
+  "chats": [
+    {
+      "title": "方案2",
+      "thread_id": "01a1905d-3df5-77b1-964a-8c64cba34d35"
+    },
+    {
+      "title": "写报告",
+      "thread_id": "01a18cc5-8622-7211-bf07-c4f8089a0c80"
+    }
+  ]
+}

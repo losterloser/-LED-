@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "details": {
+    "compiled_inputs_verified": 54,
+    "archived_rtl_tests": 21,
+    "implementation_reports": {
+      "passed": true,
+      "observed": {
+        "setup_wns_ns": 0.379,
+        "hold_whs_ns": 0.025,
+        "resources": {
+          "Slice LUTs": 7232.0,
+          "Slice Registers": 10560.0,
+          "Block RAM Tile": 23.0,
+          "DSPs": 7.0
+        },
+        "minimum_bus_skew_slack_ns": 19.145
+      },
+      "errors": []
+    },
+    "public_files": 220,
+    "public_bytes": 5823520,
+    "largest_public_file_bytes": 2083849
+  },
+  "errors": [],
+  "hardware_accessed": false,
+  "network_used": false
+}

@@ -1,0 +1,473 @@
+[
+  {
+    "time": 0.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 1.0,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 1.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 2.0,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 2.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 3.0,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 3.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 4.0,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 4.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 5.0,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 5.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 6.0,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 6.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 7.0,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 7.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 8.0,
+    "title": "",
+    "artist": "连续一致窗口 1 / 4",
+    "state": "confirming_temporal",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 8.5,
+    "title": "",
+    "artist": "连续一致窗口 1 / 4",
+    "state": "confirming_temporal",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 9.0,
+    "title": "",
+    "artist": "连续一致窗口 1 / 4",
+    "state": "confirming_temporal",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 9.5,
+    "title": "",
+    "artist": "连续一致窗口 1 / 4",
+    "state": "confirming_temporal",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 10.0,
+    "title": "",
+    "artist": "等待第二次一致匹配",
+    "state": "confirming",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 10.5,
+    "title": "",
+    "artist": "等待第二次一致匹配",
+    "state": "confirming",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 11.0,
+    "title": "",
+    "artist": "等待第二次一致匹配",
+    "state": "confirming",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 11.5,
+    "title": "",
+    "artist": "等待第二次一致匹配",
+    "state": "confirming",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 12.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 12.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 13.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 13.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 14.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 14.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 15.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 15.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 16.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 16.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 17.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 17.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 18.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 18.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 19.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 19.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 20.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 20.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 21.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 21.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 22.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 22.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 23.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 23.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 24.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 24.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 25.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 25.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 26.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 26.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 27.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 27.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 28.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "tracking",
+    "support_age_seconds": 0,
+    "old_title": ""
+  },
+  {
+    "time": 28.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "tracking",
+    "support_age_seconds": 0.5,
+    "old_title": ""
+  },
+  {
+    "time": 29.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "tracking",
+    "support_age_seconds": 1.0,
+    "old_title": ""
+  },
+  {
+    "time": 29.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "tracking",
+    "support_age_seconds": 1.5,
+    "old_title": ""
+  },
+  {
+    "time": 30.0,
+    "title": "",
+    "artist": "",
+    "state": "silence",
+    "old_title": ""
+  },
+  {
+    "time": 30.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  }
+]

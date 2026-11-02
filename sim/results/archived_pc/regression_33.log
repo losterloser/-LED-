@@ -1,0 +1,49 @@
+excerpt0 {'recognized': True, 'title': '测试旋律1', 'artist': '测试演奏者1', 'track_id': 1, 'votes': 626, 'query_hashes': 1686, 'anchor_count': 74, 'span_seconds': 7.595, 'score': 0.3713, 'runner_up_votes': 31, 'offset_seconds': 5.152, 'reason': '已识别', 'acceptance_rule': 'strict', 'candidate_track_id': 1, 'candidate_title': '测试旋律1', 'candidate_artist': '测试演奏者1'}
+excerpt1 {'recognized': True, 'title': '测试旋律2', 'artist': '测试演奏者2', 'track_id': 2, 'votes': 664, 'query_hashes': 1674, 'anchor_count': 80, 'span_seconds': 7.787, 'score': 0.3967, 'runner_up_votes': 30, 'offset_seconds': 5.824, 'reason': '已识别', 'acceptance_rule': 'strict', 'candidate_track_id': 2, 'candidate_title': '测试旋律2', 'candidate_artist': '测试演奏者2'}
+excerpt2 {'recognized': True, 'title': '测试旋律3', 'artist': '测试演奏者3', 'track_id': 3, 'votes': 963, 'query_hashes': 1698, 'anchor_count': 69, 'span_seconds': 7.68, 'score': 0.5671, 'runner_up_votes': 52, 'offset_seconds': 6.56, 'reason': '已识别', 'acceptance_rule': 'strict', 'candidate_track_id': 3, 'candidate_title': '测试旋律3', 'candidate_artist': '测试演奏者3'}
+test_01_excerpt (selftest.Tests.test_01_excerpt) ... ok
+gain_0.12_with_noise {'recognized': True, 'title': '测试旋律2', 'artist': '测试演奏者2', 'track_id': 2, 'votes': 373, 'query_hashes': 2577, 'anchor_count': 69, 'span_seconds': 7.36, 'score': 0.1447, 'runner_up_votes': 29, 'offset_seconds': 8.768, 'reason': '已识别', 'acceptance_rule': 'strict', 'candidate_track_id': 2, 'candidate_title': '测试旋律2', 'candidate_artist': '测试演奏者2'}
+test_02_gain_noise (selftest.Tests.test_02_gain_noise) ... ok
+44100Hz {'recognized': True, 'title': '测试旋律3', 'artist': '测试演奏者3', 'track_id': 3, 'votes': 1312, 'query_hashes': 1821, 'anchor_count': 74, 'span_seconds': 7.669, 'score': 0.7205, 'runner_up_votes': 34, 'offset_seconds': 10.016, 'reason': '已识别', 'acceptance_rule': 'strict', 'candidate_track_id': 3, 'candidate_title': '测试旋律3', 'candidate_artist': '测试演奏者3'}
+12000Hz_uart {'recognized': True, 'title': '测试旋律3', 'artist': '测试演奏者3', 'track_id': 3, 'votes': 1312, 'query_hashes': 1821, 'anchor_count': 74, 'span_seconds': 7.669, 'score': 0.7205, 'runner_up_votes': 34, 'offset_seconds': 10.016, 'reason': '已识别', 'acceptance_rule': 'strict', 'candidate_track_id': 3, 'candidate_title': '测试旋律3', 'candidate_artist': '测试演奏者3'}
+test_03_resampling (selftest.Tests.test_03_resampling) ... ok
+silence {'recognized': False, 'title': '', 'artist': '', 'track_id': None, 'votes': 0, 'query_hashes': 0, 'anchor_count': 0, 'span_seconds': 0, 'score': 0, 'runner_up_votes': 0, 'offset_seconds': 0, 'reason': '音频太短、太安静或没有可用特征', 'acceptance_rule': 'none', 'candidate_track_id': None, 'candidate_title': '', 'candidate_artist': ''}
+unregistered_fixture {'recognized': False, 'title': '', 'artist': '', 'track_id': None, 'votes': 45, 'query_hashes': 1713, 'anchor_count': 10, 'span_seconds': 3.947, 'score': 0.0263, 'runner_up_votes': 41, 'offset_seconds': 9.408, 'reason': '匹配不足或候选相近，未识别到', 'acceptance_rule': 'none', 'candidate_track_id': 3, 'candidate_title': '测试旋律3', 'candidate_artist': '测试演奏者3'}
+white_noise {'recognized': False, 'title': '', 'artist': '', 'track_id': None, 'votes': 1, 'query_hashes': 4371, 'anchor_count': 1, 'span_seconds': 0.0, 'score': 0.0002, 'runner_up_votes': 1, 'offset_seconds': 12.096, 'reason': '匹配不足或候选相近，未识别到', 'acceptance_rule': 'none', 'candidate_track_id': 3, 'candidate_title': '测试旋律3', 'candidate_artist': '测试演奏者3'}
+single_tone {'recognized': False, 'title': '', 'artist': '', 'track_id': None, 'votes': 0, 'query_hashes': 2153, 'anchor_count': 0, 'span_seconds': 0, 'score': 0, 'runner_up_votes': 0, 'offset_seconds': 0, 'reason': '未找到一致的音频指纹', 'acceptance_rule': 'none', 'candidate_track_id': None, 'candidate_title': '', 'candidate_artist': ''}
+test_04_negative (selftest.Tests.test_04_negative) ... ok
+short_echo {'recognized': True, 'title': '测试旋律1', 'artist': '测试演奏者1', 'track_id': 1, 'votes': 374, 'query_hashes': 1626, 'anchor_count': 80, 'span_seconds': 7.584, 'score': 0.23, 'runner_up_votes': 18, 'offset_seconds': 7.168, 'reason': '已识别', 'acceptance_rule': 'strict', 'candidate_track_id': 1, 'candidate_title': '测试旋律1', 'candidate_artist': '测试演奏者1'}
+test_05_echo (selftest.Tests.test_05_echo) ... ok
+test_06_ambiguity (selftest.Tests.test_06_ambiguity) ... ok
+test_07_protocol (selftest.Tests.test_07_protocol) ... ok
+test_08_gap_reset (selftest.Tests.test_08_gap_reset) ... ok
+test_09_chinese_overlay (selftest.Tests.test_09_chinese_overlay) ... ok
+test_10_single_song_library_negatives (selftest.Tests.test_10_single_song_library_negatives) ... ok
+test_11_filtered_transport_recognition (selftest.Tests.test_11_filtered_transport_recognition) ... ok
+test_12_live_threads_without_hardware (selftest.Tests.test_12_live_threads_without_hardware) ... ok
+test_13_stereo_reference_views (selftest.Tests.test_13_stereo_reference_views) ... ok
+test_14_acoustic_unknowns (selftest.Tests.test_14_acoustic_unknowns) ... ok
+test_15_acoustic_ambiguity (selftest.Tests.test_15_acoustic_ambiguity) ... ok
+test_continuous_mic_evidence_survives_long_weak_section (test_recognition_tracker.TrackerTests.test_continuous_mic_evidence_survives_long_weak_section) ... ok
+test_different_song_evidence_prevents_silence_flush (test_recognition_tracker.TrackerTests.test_different_song_evidence_prevents_silence_flush) ... ok
+test_expired_identity_needs_fresh_confirmation (test_recognition_tracker.TrackerTests.test_expired_identity_needs_fresh_confirmation) ... ok
+test_initial_two_confirmations_and_no_weak_acquisition (test_recognition_tracker.TrackerTests.test_initial_two_confirmations_and_no_weak_acquisition) ... ok
+test_line_does_not_use_weak_mic_evidence (test_recognition_tracker.TrackerTests.test_line_does_not_use_weak_mic_evidence) ... ok
+test_low_evidence_never_acquires_or_applies_to_line (test_recognition_tracker.TrackerTests.test_low_evidence_never_acquires_or_applies_to_line) ... ok
+test_low_evidence_wrong_candidate_offset_margin_or_frozen_clock_does_not_hold (test_recognition_tracker.TrackerTests.test_low_evidence_wrong_candidate_offset_margin_or_frozen_clock_does_not_hold) ... ok
+test_paired_low_evidence_keeps_only_established_mic_identity (test_recognition_tracker.TrackerTests.test_paired_low_evidence_keeps_only_established_mic_identity) ... ok
+test_quieter_music_above_noise_level_is_not_silence (test_recognition_tracker.TrackerTests.test_quieter_music_above_noise_level_is_not_silence) ... ok
+test_reset_clears_without_grace_period (test_recognition_tracker.TrackerTests.test_reset_clears_without_grace_period) ... ok
+test_sample_counter_wrap_and_stalled_samples (test_recognition_tracker.TrackerTests.test_sample_counter_wrap_and_stalled_samples) ... ok
+test_song_change_needs_two_confirmations (test_recognition_tracker.TrackerTests.test_song_change_needs_two_confirmations) ... ok
+test_sustained_silence_and_brief_pause (test_recognition_tracker.TrackerTests.test_sustained_silence_and_brief_pause) ... ok
+test_temporal_acquisition_forbidden_for_line_or_missing_metadata (test_recognition_tracker.TrackerTests.test_temporal_acquisition_forbidden_for_line_or_missing_metadata) ... ok
+test_temporal_acquisition_needs_four_progressing_windows (test_recognition_tracker.TrackerTests.test_temporal_acquisition_needs_four_progressing_windows) ... ok
+test_temporal_partial_sequence_expires_and_reset_clears (test_recognition_tracker.TrackerTests.test_temporal_partial_sequence_expires_and_reset_clears) ... ok
+test_temporal_wrong_offset_or_frozen_audio_or_margin_cannot_acquire (test_recognition_tracker.TrackerTests.test_temporal_wrong_offset_or_frozen_audio_or_margin_cannot_acquire) ... ok
+test_unrelated_or_wrong_offset_cannot_extend_identity (test_recognition_tracker.TrackerTests.test_unrelated_or_wrong_offset_cannot_extend_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 17.195s
+
+OK

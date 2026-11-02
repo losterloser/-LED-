@@ -1,0 +1,137 @@
+{
+  "updated_at": "2026-10-31T20:43:04+08:00",
+  "songs": 5,
+  "artists": 5,
+  "excerpts_per_song": 3,
+  "distinct_known_cases": 15,
+  "passed": 15,
+  "physical_lcd_names_user_confirmed": 5,
+  "additional_LCD_observations_not_assumed": true,
+  "all_stable_playback_crc_drop_gap_deltas_zero": true,
+  "query_observation_rule": "Evaluate after 12 seconds from playback invocation to exclude mixed preceding-song windows",
+  "physical_line_in": true,
+  "library_total": 16,
+  "all_library_songs_physically_tested": false,
+  "cases": [
+    {
+      "title": "小镇姑娘",
+      "artist": "陶喆",
+      "source_start_seconds": 45.413,
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_first_result.json",
+      "physical_lcd_user_observed": true
+    },
+    {
+      "title": "小镇姑娘",
+      "artist": "陶喆",
+      "source_start_seconds": 90.277,
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_town_90.json",
+      "physical_lcd_user_observed": false
+    },
+    {
+      "title": "小镇姑娘",
+      "artist": "陶喆",
+      "source_start_seconds": 150.719,
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_town_150.json",
+      "physical_lcd_user_observed": false
+    },
+    {
+      "title": "勇气",
+      "artist": "梁静茹",
+      "source_start_seconds": 45.413,
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_courage_45_replay1.json",
+      "physical_lcd_user_observed": true
+    },
+    {
+      "title": "勇气",
+      "artist": "梁静茹",
+      "source_start_seconds": 90.277,
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_courage_90.json",
+      "physical_lcd_user_observed": false
+    },
+    {
+      "title": "勇气",
+      "artist": "梁静茹",
+      "source_start_seconds": 150.719,
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_courage_150.json",
+      "physical_lcd_user_observed": false
+    },
+    {
+      "title": "晴天",
+      "artist": "周杰伦",
+      "source_start_seconds": 45.413,
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_sunny_45.json",
+      "physical_lcd_user_observed": true
+    },
+    {
+      "title": "晴天",
+      "artist": "周杰伦",
+      "source_start_seconds": 90.277,
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_sunny_90.json",
+      "physical_lcd_user_observed": false
+    },
+    {
+      "title": "晴天",
+      "artist": "周杰伦",
+      "source_start_seconds": 150.719,
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_sunny_150.json",
+      "physical_lcd_user_observed": false
+    },
+    {
+      "title": "唯一",
+      "artist": "G.E.M.邓紫棋",
+      "source_start_seconds": 45.413,
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_only_45_replay1.json",
+      "physical_lcd_user_observed": true
+    },
+    {
+      "title": "唯一",
+      "artist": "G.E.M.邓紫棋",
+      "source_start_seconds": 90.277,
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_only_90.json",
+      "physical_lcd_user_observed": false
+    },
+    {
+      "title": "唯一",
+      "artist": "G.E.M.邓紫棋",
+      "source_start_seconds": 150.719,
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_only_150.json",
+      "physical_lcd_user_observed": false
+    },
+    {
+      "title": "Love Song",
+      "artist": "方大同",
+      "source_start_seconds": 45.413,
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_love_song_45.json",
+      "physical_lcd_user_observed": true
+    },
+    {
+      "title": "Love Song",
+      "artist": "方大同",
+      "source_start_seconds": 90.277,
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_love_song_90.json",
+      "physical_lcd_user_observed": false
+    },
+    {
+      "title": "Love Song",
+      "artist": "方大同",
+      "source_start_seconds": 150.719,
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_love_song_150.json",
+      "physical_lcd_user_observed": false
+    }
+  ]
+}

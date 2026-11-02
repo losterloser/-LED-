@@ -1,0 +1,52 @@
+part=xc7z010clg400-1
+usr_access=0x4E375231
+uart_baud=500000
+recognition_pcm_rate=12000
+flash_written=0
+aud_adcdat package_pin=M17 iostandard=LVCMOS33
+aud_bclk package_pin=M18 iostandard=LVCMOS33
+aud_dacdat package_pin=G17 iostandard=LVCMOS33
+aud_lrc package_pin=L20 iostandard=LVCMOS33
+aud_mclk package_pin=E19 iostandard=LVCMOS33
+aud_scl package_pin=E18 iostandard=LVCMOS33
+aud_sda package_pin=F17 iostandard=LVCMOS33
+key_n[0] package_pin=L14 iostandard=LVCMOS33
+key_n[1] package_pin=K16 iostandard=LVCMOS33
+lcd_bl package_pin=M20 iostandard=LVCMOS33
+lcd_clk package_pin=P19 iostandard=LVCMOS33
+lcd_de package_pin=U20 iostandard=LVCMOS33
+lcd_hs package_pin=N18 iostandard=LVCMOS33
+lcd_rgb[0] package_pin=W18 iostandard=LVCMOS33
+lcd_rgb[10] package_pin=T17 iostandard=LVCMOS33
+lcd_rgb[11] package_pin=R18 iostandard=LVCMOS33
+lcd_rgb[12] package_pin=Y18 iostandard=LVCMOS33
+lcd_rgb[13] package_pin=Y19 iostandard=LVCMOS33
+lcd_rgb[14] package_pin=P15 iostandard=LVCMOS33
+lcd_rgb[15] package_pin=P16 iostandard=LVCMOS33
+lcd_rgb[16] package_pin=V16 iostandard=LVCMOS33
+lcd_rgb[17] package_pin=W16 iostandard=LVCMOS33
+lcd_rgb[18] package_pin=T14 iostandard=LVCMOS33
+lcd_rgb[19] package_pin=T15 iostandard=LVCMOS33
+lcd_rgb[1] package_pin=W19 iostandard=LVCMOS33
+lcd_rgb[20] package_pin=Y17 iostandard=LVCMOS33
+lcd_rgb[21] package_pin=Y16 iostandard=LVCMOS33
+lcd_rgb[22] package_pin=T16 iostandard=LVCMOS33
+lcd_rgb[23] package_pin=U17 iostandard=LVCMOS33
+lcd_rgb[2] package_pin=R16 iostandard=LVCMOS33
+lcd_rgb[3] package_pin=R17 iostandard=LVCMOS33
+lcd_rgb[4] package_pin=W20 iostandard=LVCMOS33
+lcd_rgb[5] package_pin=V20 iostandard=LVCMOS33
+lcd_rgb[6] package_pin=P18 iostandard=LVCMOS33
+lcd_rgb[7] package_pin=N17 iostandard=LVCMOS33
+lcd_rgb[8] package_pin=V17 iostandard=LVCMOS33
+lcd_rgb[9] package_pin=V18 iostandard=LVCMOS33
+lcd_rst_n package_pin=L17 iostandard=LVCMOS33
+lcd_vs package_pin=T20 iostandard=LVCMOS33
+led[0] package_pin=H15 iostandard=LVCMOS33
+led[1] package_pin=L15 iostandard=LVCMOS33
+recognition_rx package_pin=T19 iostandard=LVCMOS33
+recognition_tx package_pin=J15 iostandard=LVCMOS33
+rgb_data package_pin=N15 iostandard=LVCMOS33
+sys_clk package_pin=U18 iostandard=LVCMOS33
+sys_rst_n package_pin=N16 iostandard=LVCMOS33
+touch_rst_n package_pin=M19 iostandard=LVCMOS33

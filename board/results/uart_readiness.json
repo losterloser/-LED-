@@ -1,0 +1,21 @@
+{
+  "observed_at": "2026-11-01T22:14:50+08:00",
+  "live_log": "reports\\live_recognition_20261101_221413.jsonl",
+  "software_policy": null,
+  "mode_epoch": [
+    0,
+    0
+  ],
+  "status": "ROM 测试模式",
+  "age_seconds": 0.031781,
+  "rows": 72,
+  "sample_advance": 61056,
+  "display_ack_before": 60,
+  "display_ack_after": 70,
+  "crc_delta": 0,
+  "gap_delta": 0,
+  "drop_delta": 0,
+  "physical_screen_and_ring_observation_pending": true,
+  "stream_healthy": true,
+  "display_ack_advanced": true
+}

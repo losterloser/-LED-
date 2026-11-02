@@ -1,0 +1,19 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.tcl text eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+src/** -text
+sim/tb/** -text
+data/** -text
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.wav binary
+*.png binary
+*.bit binary
+*.ltx binary
+*.zip binary
+# Preserve reviewed source and evidence byte hashes across Git checkouts.
+* -text

@@ -1,0 +1,58 @@
+{
+  "display_policy": "navigator-display-v3-mic-temporal-acquisition",
+  "match_policy": "navigator-match-v2-mic-guarded",
+  "cases": 7,
+  "passed": 7,
+  "all_passed": true,
+  "checks": [
+    {
+      "case": "captured_MIC_stable_after_confirmation",
+      "passed": true,
+      "first_confirmed_replay_seconds": 12.0,
+      "display_coverage_during_remaining_music": 1.0,
+      "original_immediate_clear_coverage_at_same_queries": 1.0,
+      "captured_conditions": "2026-10-31 speaker 50 percent, about 20cm",
+      "fresh_hardware_test": false
+    },
+    {
+      "case": "first_song_confirmed",
+      "passed": true
+    },
+    {
+      "case": "new_song_replaces_old",
+      "passed": true,
+      "observation_seconds_after_song_change": 12
+    },
+    {
+      "case": "unknown_clears_old_title",
+      "passed": true,
+      "observation_seconds_after_unknown_begins": 12
+    },
+    {
+      "case": "silence_flush_clears_without_stale_reacquisition",
+      "passed": true,
+      "replay_clear_seconds_after_stop": 2.5,
+      "audio_window_flushed": true
+    },
+    {
+      "case": "unknown_cannot_acquire_from_weak_evidence",
+      "passed": true
+    },
+    {
+      "case": "one_second_pause_does_not_clear_confirmed_title",
+      "passed": true
+    }
+  ],
+  "library_sha256_before": "df10f3eae4da3e234328fde21da6ca4e8ad97e29be0d66367caf8ff52b864169",
+  "library_sha256_after": "df10f3eae4da3e234328fde21da6ca4e8ad97e29be0d66367caf8ff52b864169",
+  "hardware_operated": false,
+  "audio_played": false,
+  "new_display_policy_hardware_accepted": false,
+  "evidence_scope": "LOCAL_ONLY_OFFLINE_REPLAY",
+  "assets_root": "",
+  "runtime_sources": {
+    "pc\\songid.py": "e94e737f8e3e21c5a00f2f0e30af452b9338ad6d570b34d79c6b41b40a36547a",
+    "pc\\live.py": "2e2970a1c586a3b6815a0a278665a58141b89998fe16ab1c871f388742d04e31",
+    "pc\\recognition_tracker.py": "bacec78e83323c0c76767686ae27cb784ffac586fc70bc5bcce8bbfb9540a76b"
+  }
+}

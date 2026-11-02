@@ -1,0 +1,108 @@
+{
+  "filename": "library.sqlite3",
+  "sha256": "81f04ac5b09c85347dfdc2bf8b0e6d0801cecf467e962f137b98d936163d873e",
+  "bytes": 184741888,
+  "tracks": [
+    {
+      "id": 1,
+      "title": "小镇姑娘",
+      "artist": "陶喆",
+      "duration_seconds": 295.6666666666667
+    },
+    {
+      "id": 2,
+      "title": "Melody",
+      "artist": "陶喆",
+      "duration_seconds": 269.02666666666664
+    },
+    {
+      "id": 3,
+      "title": "普通朋友",
+      "artist": "陶喆",
+      "duration_seconds": 255.13333333333333
+    },
+    {
+      "id": 4,
+      "title": "天天",
+      "artist": "陶喆",
+      "duration_seconds": 255.2
+    },
+    {
+      "id": 5,
+      "title": "流沙",
+      "artist": "陶喆",
+      "duration_seconds": 242.625306122449
+    },
+    {
+      "id": 6,
+      "title": "唯一",
+      "artist": "G.E.M.邓紫棋",
+      "duration_seconds": 253.73516666666666
+    },
+    {
+      "id": 7,
+      "title": "我爱你",
+      "artist": "卢广仲",
+      "duration_seconds": 285.0806349206349
+    },
+    {
+      "id": 8,
+      "title": "晴天",
+      "artist": "周杰伦",
+      "duration_seconds": 269.74666666666667
+    },
+    {
+      "id": 9,
+      "title": "我怀念的",
+      "artist": "孙燕姿",
+      "duration_seconds": 289.06666666666666
+    },
+    {
+      "id": 10,
+      "title": "Love Song",
+      "artist": "方大同",
+      "duration_seconds": 269.29333333333335
+    },
+    {
+      "id": 11,
+      "title": "麦恩莉",
+      "artist": "方大同",
+      "duration_seconds": 288.36
+    },
+    {
+      "id": 12,
+      "title": "恋人",
+      "artist": "李荣浩",
+      "duration_seconds": 275.91260416666665
+    },
+    {
+      "id": 13,
+      "title": "雨爱",
+      "artist": "杨丞琳",
+      "duration_seconds": 260.4802267573696
+    },
+    {
+      "id": 14,
+      "title": "Always Online",
+      "artist": "林俊杰",
+      "duration_seconds": 225.0133560090703
+    },
+    {
+      "id": 15,
+      "title": "勇气",
+      "artist": "梁静茹",
+      "duration_seconds": 239.29333333333332
+    },
+    {
+      "id": 16,
+      "title": "如果可以",
+      "artist": "韦礼安",
+      "duration_seconds": 274.5991836734694
+    }
+  ],
+  "track_count": 16,
+  "fingerprint_count": 6325754,
+  "source_paths_removed": true,
+  "original_audio_included": false,
+  "vacuumed_to_remove_deleted_path_bytes": true
+}

@@ -1,0 +1,2 @@
+Skill is valid!
+Validated with the bundled skill-creator quick_validate.py and PyYAML 6.0.3.

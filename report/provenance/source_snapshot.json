@@ -1,0 +1,30 @@
+{
+  "snapshot_date": "2026-11-01",
+  "part": "xc7z010clg400-1",
+  "vivado_version": "2022.2",
+  "rtl_simulations_historical_passed": 21,
+  "pc_regression_current_passed": 33,
+  "display_replay_passed": 7,
+  "mic_acquisition_replay_passed": 11,
+  "historical_real_recording_cases_passed": 155,
+  "setup_wns_ns": 0.379,
+  "hold_whs_ns": 0.025,
+  "resources": {
+    "Slice LUTs": 7232.0,
+    "Slice Registers": 10560.0,
+    "Block RAM Tile": 23.0,
+    "DSPs": 7.0
+  },
+  "clock_hz": 50000000,
+  "nominal_audio_sample_hz": 48000,
+  "recognition_sample_hz": 12000,
+  "uart_baud": 500000,
+  "fft_points": 1024,
+  "bands": 16,
+  "rgb_leds": 16,
+  "cloud_service_required": false,
+  "ps_application_used": false,
+  "hls_used": false,
+  "pynq_used": false,
+  "hardware_overall_accepted": false
+}

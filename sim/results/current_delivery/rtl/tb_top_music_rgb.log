@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+PASS tb_top_music_rgb: real MMCM and generated I2S, ROM+MIC+LINE FFT, 50MHz exact GRB timing/colors, codec profile changes, controls, lost-stream clear, reset
+$finish called at time : 49992610 ns : File "R:/sim/tb/tb_top_music_rgb.sv" Line 96
+INFO: xsimkernel Simulation Memory Usage: 27284 KB (Peak: 27284 KB), Simulation CPU Usage: 449467 ms

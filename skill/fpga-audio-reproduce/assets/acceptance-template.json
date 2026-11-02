@@ -1,0 +1,12 @@
+{
+  "project": "",
+  "tool_version": "",
+  "device": "",
+  "source_snapshot": "",
+  "items": [
+    {"name": "reference_comparison", "status": "pending", "input_conditions": "", "evidence": "", "evidence_type": "simulation"},
+    {"name": "timing_and_resources", "status": "pending", "input_conditions": "", "evidence": "", "evidence_type": "implementation_report"},
+    {"name": "physical_input_and_output", "status": "pending", "input_conditions": "", "evidence": "", "evidence_type": "physical_observation"},
+    {"name": "continuous_operation", "status": "pending", "duration_minutes": null, "evidence": "", "evidence_type": "live_session"}
+  ]
+}

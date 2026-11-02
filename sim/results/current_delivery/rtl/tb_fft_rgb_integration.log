@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+PASS tb_fft_rgb_integration: real FFT IP, ROM bin16/bin64, LED8/LED12 exact GRB words, no drop/protocol errors
+$finish called at time : 1759335 ns : File "R:/sim/tb/tb_fft_rgb_integration.sv" Line 47
+INFO: xsimkernel Simulation Memory Usage: 26248 KB (Peak: 26248 KB), Simulation CPU Usage: 21390 ms

@@ -1,0 +1,851 @@
+[
+  {
+    "time": 0.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 1.0,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 1.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 2.0,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 2.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 3.0,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 3.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 4.0,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 4.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 5.0,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 5.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 6.0,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 6.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 7.0,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 7.5,
+    "title": "",
+    "artist": "",
+    "state": "sampling",
+    "old_title": ""
+  },
+  {
+    "time": 8.0,
+    "title": "",
+    "artist": "等待第二次一致匹配",
+    "state": "confirming",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 8.5,
+    "title": "",
+    "artist": "等待第二次一致匹配",
+    "state": "confirming",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 9.0,
+    "title": "",
+    "artist": "等待第二次一致匹配",
+    "state": "confirming",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 9.5,
+    "title": "",
+    "artist": "等待第二次一致匹配",
+    "state": "confirming",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 10.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 10.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 11.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 11.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 12.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 12.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 13.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 13.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 14.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 14.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 15.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 15.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 16.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 16.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 17.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 17.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 18.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 18.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 19.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 19.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "小镇姑娘"
+  },
+  {
+    "time": 20.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "holding",
+    "support_age_seconds": 2.0,
+    "old_title": ""
+  },
+  {
+    "time": 20.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "holding",
+    "support_age_seconds": 2.5,
+    "old_title": ""
+  },
+  {
+    "time": 21.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "holding",
+    "support_age_seconds": 3.0,
+    "old_title": ""
+  },
+  {
+    "time": 21.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "holding",
+    "support_age_seconds": 3.5,
+    "old_title": ""
+  },
+  {
+    "time": 22.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "holding",
+    "support_age_seconds": 4.0,
+    "old_title": ""
+  },
+  {
+    "time": 22.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "holding",
+    "support_age_seconds": 4.5,
+    "old_title": ""
+  },
+  {
+    "time": 23.0,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "holding",
+    "support_age_seconds": 5.0,
+    "old_title": ""
+  },
+  {
+    "time": 23.5,
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "state": "holding",
+    "support_age_seconds": 5.5,
+    "old_title": ""
+  },
+  {
+    "time": 24.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "勇气"
+  },
+  {
+    "time": 24.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "勇气"
+  },
+  {
+    "time": 25.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "勇气"
+  },
+  {
+    "time": 25.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "勇气"
+  },
+  {
+    "time": 26.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "勇气"
+  },
+  {
+    "time": 26.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "勇气"
+  },
+  {
+    "time": 27.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "勇气"
+  },
+  {
+    "time": 27.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "勇气"
+  },
+  {
+    "time": 28.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "勇气"
+  },
+  {
+    "time": 28.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "勇气"
+  },
+  {
+    "time": 29.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "勇气"
+  },
+  {
+    "time": 29.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "勇气"
+  },
+  {
+    "time": 30.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "勇气"
+  },
+  {
+    "time": 30.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "勇气"
+  },
+  {
+    "time": 31.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "勇气"
+  },
+  {
+    "time": 31.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "勇气"
+  },
+  {
+    "time": 32.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "勇气"
+  },
+  {
+    "time": 32.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "勇气"
+  },
+  {
+    "time": 33.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "勇气"
+  },
+  {
+    "time": 33.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "勇气"
+  },
+  {
+    "time": 34.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "勇气"
+  },
+  {
+    "time": 34.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "勇气"
+  },
+  {
+    "time": 35.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "勇气"
+  },
+  {
+    "time": 35.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "勇气"
+  },
+  {
+    "time": 36.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "勇气"
+  },
+  {
+    "time": 36.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "勇气"
+  },
+  {
+    "time": 37.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "勇气"
+  },
+  {
+    "time": 37.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "勇气"
+  },
+  {
+    "time": 38.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 0,
+    "old_title": "勇气"
+  },
+  {
+    "time": 38.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 0.5,
+    "old_title": "勇气"
+  },
+  {
+    "time": 39.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 1.0,
+    "old_title": "勇气"
+  },
+  {
+    "time": 39.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "confirmed",
+    "support_age_seconds": 1.5,
+    "old_title": "勇气"
+  },
+  {
+    "time": 40.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "holding",
+    "support_age_seconds": 2.0,
+    "old_title": ""
+  },
+  {
+    "time": 40.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "holding",
+    "support_age_seconds": 2.5,
+    "old_title": ""
+  },
+  {
+    "time": 41.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "holding",
+    "support_age_seconds": 3.0,
+    "old_title": ""
+  },
+  {
+    "time": 41.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "holding",
+    "support_age_seconds": 3.5,
+    "old_title": ""
+  },
+  {
+    "time": 42.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "holding",
+    "support_age_seconds": 4.0,
+    "old_title": ""
+  },
+  {
+    "time": 42.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "holding",
+    "support_age_seconds": 4.5,
+    "old_title": ""
+  },
+  {
+    "time": 43.0,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "holding",
+    "support_age_seconds": 5.0,
+    "old_title": ""
+  },
+  {
+    "time": 43.5,
+    "title": "勇气",
+    "artist": "梁静茹",
+    "state": "holding",
+    "support_age_seconds": 5.5,
+    "old_title": ""
+  },
+  {
+    "time": 44.0,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 44.5,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 45.0,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 45.5,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 46.0,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 46.5,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 47.0,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 47.5,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 48.0,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 48.5,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 49.0,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 49.5,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 50.0,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 50.5,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 51.0,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 51.5,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 52.0,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 52.5,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 53.0,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 53.5,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  },
+  {
+    "time": 54.0,
+    "title": "",
+    "artist": "匹配不足或候选相近，未识别到",
+    "state": "unknown",
+    "support_age_seconds": null,
+    "old_title": ""
+  }
+]

@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+PASS tb_spectrum_renderer: 16 colors, exact tone bar heights, clamp, bitmap text, ready/error status, 8-color screen self-test
+$finish called at time : 350 ns : File "R:/sim/tb_spectrum_renderer.sv" Line 30

@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "details": {
+    "archived_inputs_verified": 54,
+    "archived_rtl_tests": 21,
+    "implementation_reports": {
+      "passed": true,
+      "observed": {
+        "setup_wns_ns": 0.379,
+        "hold_whs_ns": 0.025,
+        "resources": {
+          "Slice LUTs": 7232.0,
+          "Slice Registers": 10560.0,
+          "Block RAM Tile": 23.0,
+          "DSPs": 7.0
+        },
+        "minimum_bus_skew_slack_ns": 19.145
+      },
+      "errors": []
+    },
+    "video_separate_attachment": false,
+    "video": {
+      "bytes": 284413551,
+      "sample_entry_types": [
+        "avc1",
+        "mp4a"
+      ],
+      "duration_seconds": 175.08
+    },
+    "fingerprint_library_verified": true,
+    "files_checked": 288,
+    "total_bytes": 363591616
+  },
+  "errors": [],
+  "new_hardware_actions": false,
+  "network_used": false
+}

@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Oct 30 21:20:00 2026
+# Process ID: 23156
+# Current directory: R:/
+# Command line: vivado.exe -mode batch -notrace -log reports/post_checkpoint_signoff.log -journal reports/post_checkpoint_signoff.jou -source scripts/post_checkpoint_signoff.tcl
+# Log file: R:/reports/post_checkpoint_signoff.log
+# Journal file: R:/reports/post_checkpoint_signoff.jou
+# Running On: DESKTOP-JF9ET1Q, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 16, Host memory: 16907 MB
+#-----------------------------------------------------------
+source scripts/post_checkpoint_signoff.tcl -notrace
+Command: open_checkpoint R:/vivado/navigator7010_music_rgb_lcd_recognizer.runs/impl_1/top_music_rgb_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 326.328 ; gain = 0.000
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.173 . Memory (MB): peak = 844.188 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1585 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Constraints 18-5170] The checkpoint was created with non-default parameter values which do not match the current Vivado settings.  Mismatching parameters are:
+  general.maxThreads
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1579.742 ; gain = 6.648
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1579.742 ; gain = 6.648
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1579.742 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 668 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 600 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 6 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 50 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 10 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2022.2 (64-bit) build 3671981
+OpenCheckpoint Checksum | Checksum: fc841da9
+----- Checksum: PlaceDB: acb52794 ShapeSum: 0bddc15f RouteDB: 43f134b6 
+open_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1583.777 ; gain = 1257.449
+RECOGNITION_POST_CHECKPOINT_PASSED
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 30 21:20:17 2026...

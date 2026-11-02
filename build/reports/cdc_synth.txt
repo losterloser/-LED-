@@ -1,0 +1,18 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Oct 30 21:17:03 2026
+| Host         : DESKTOP-JF9ET1Q running 64-bit major release  (build 9200)
+| Command      : report_cdc -file R:/reports/cdc_synth.txt
+| Design       : top_music_rgb
+| Device       : 7z010-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+------------------------------------------------------------------------------------
+
+CDC Report
+
+Severity  Source Clock      Destination Clock  CDC Type                 Exceptions           Endpoints  Safe  Unsafe  Unknown  No ASYNC_REG  
+--------  ----------------  -----------------  -----------------------  -------------------  ---------  ----  ------  -------  ------------  
+Info      codec_raw         board_50m          User Ignored             Asynch Clock Groups          2     2       0        0             0  
+Info      input port clock  board_50m          No Common Primary Clock  False Path                   6     6       0        0             0  
+

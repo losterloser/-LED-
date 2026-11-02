@@ -1,0 +1,19 @@
+{
+  "title": "起风了",
+  "artist": "冯沁苑(买辣椒也用券)",
+  "mode": "LINE",
+  "expected": "unknown",
+  "source_start_seconds": 45.413,
+  "duration_seconds": 25,
+  "full_window_observation_delay_seconds": 12,
+  "fresh_events": 19,
+  "correct_recognized_events": 0,
+  "unexpected_identity_events": [],
+  "crc_error_delta": 0,
+  "dropped_delta": 0,
+  "gap_delta": 0,
+  "identity_passed": true,
+  "pc_log_passed": true,
+  "physical_audio_loop": true,
+  "physical_lcd_observation_pending": true
+}

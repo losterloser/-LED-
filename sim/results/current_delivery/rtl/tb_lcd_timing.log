@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+PASS tb_lcd_timing: 2 complete 1344x635 frames, 614400 active pixels/frame, 600 lines, coordinates and reset
+$finish called at time : 34137800 ns : File "R:/sim/tb/tb_lcd_timing.sv" Line 26

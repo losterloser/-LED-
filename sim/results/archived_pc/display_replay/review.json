@@ -1,0 +1,16 @@
+{
+  "updated_at": "2026-11-01T21:44:00+08:00",
+  "software_version": "local-v0.3.2",
+  "software_verified": true,
+  "source_sha256": {
+    "pc/songid.py": "e94e737f8e3e21c5a00f2f0e30af452b9338ad6d570b34d79c6b41b40a36547a",
+    "pc/live.py": "2e2970a1c586a3b6815a0a278665a58141b89998fe16ab1c871f388742d04e31",
+    "pc/recognition_tracker.py": "bacec78e83323c0c76767686ae27cb784ffac586fc70bc5bcce8bbfb9540a76b"
+  },
+  "regression_tests": 33,
+  "replay_checks": 7,
+  "mic_acquisition_checks": 11,
+  "hardware_stability_accepted": false,
+  "fpga_files_verified_unchanged": 54,
+  "migration_manifest": "reports\\local_only_migration_20261101_213627\\manifest.json"
+}

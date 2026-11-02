@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+PASS tb_reset_sync: synchronous output, short pulse retained, held reset and clean release
+$finish called at time : 206 ns : File "R:/sim/tb_reset_sync.sv" Line 37

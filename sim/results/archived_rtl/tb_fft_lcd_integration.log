@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+PASS tb_fft_lcd_integration: real FFT IP to complete 1024x600 LCD image, exact cyan/purple bar pixel areas, no drop/protocol errors; lcd_spectrum.ppm generated
+$finish called at time : 33812560100 ps : File "<WORKSPACE>/sim/tb_fft_lcd_integration.sv" Line 38
+INFO: xsimkernel Simulation Memory Usage: 26268 KB (Peak: 26268 KB), Simulation CPU Usage: 216249 ms

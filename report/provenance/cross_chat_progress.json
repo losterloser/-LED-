@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-02",
+  "solution": "local-v0.3.2",
+  "scope": "materials organization; no new hardware actions",
+  "chats": [
+    {
+      "title": "方案2",
+      "thread_id": "01a1905d-3df5-77b1-964a-8c64cba34d35",
+      "observed_status": "idle"
+    },
+    {
+      "title": "写报告",
+      "thread_id": "01a18cc5-8622-7211-bf07-c4f8089a0c80",
+      "observed_status": "notLoaded"
+    }
+  ],
+  "report": {
+    "user_designated_final": true,
+    "pages": 31,
+    "sha256": "edcadf2e1d862a87c7d41f4a0226c34ad35dca0c1da1b47b9900a9a2534386f9"
+  },
+  "demo": {
+    "completed": true,
+    "separate_from_code_archive": true
+  },
+  "poster": {
+    "completed": true,
+    "languages": [
+      "zh",
+      "en"
+    ]
+  },
+  "accepted": [
+    "LINE IN audio acquisition",
+    "MIC audio acquisition",
+    "LCD color bars",
+    "current ring chase self-test"
+  ],
+  "pending": [
+    "current continuous song title display",
+    "song switching, silence and fault recovery",
+    "current music-to-ring integration",
+    "30-minute integrated stability"
+  ],
+  "remote_repository_created": false,
+  "files_uploaded": false
+}

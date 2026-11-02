@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+PASS tb_es8388_init: pin-level 24-write MIC/LINE profiles, 0x20 address, DAC off, transient retry, all three NACK positions
+$finish called at time : 1096531 ns : File "R:/sim/tb_es8388_init.sv" Line 53

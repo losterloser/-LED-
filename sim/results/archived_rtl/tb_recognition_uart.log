@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+PASS tb_recognition_uart: 500k 8N1, 32 ordered bytes, bad stop, recovery
+$finish called at time : 686831 ns : File "<WORKSPACE>/sim/tb_recognition_uart.sv" Line 29

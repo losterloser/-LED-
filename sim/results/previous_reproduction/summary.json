@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-11-01T23:37:58+08:00",
+  "fresh_directory_project_and_ip_created": true,
+  "rtl_tests_passed": 21,
+  "pc_regression_passed": 33,
+  "delivery_helper_tests_passed": 10,
+  "skill_validation_passed": true,
+  "fft_reference_passed": true,
+  "uart_reference_passed": true,
+  "lcd_reference_passed": true,
+  "actual_release_library_restore_passed": true,
+  "fresh_synthesis_and_implementation_run": false,
+  "implementation_evidence": "Archived reports; 54 source/constraint/data/test inputs are verified byte-for-byte",
+  "hardware_operated_for_repository_work": false,
+  "network_music_service_used": false
+}

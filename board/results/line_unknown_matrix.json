@@ -1,0 +1,32 @@
+{
+  "updated_at": "2026-10-31T20:47:03+08:00",
+  "unknown_recordings": 3,
+  "passed": 3,
+  "false_accepts": 0,
+  "all_stable_crc_drop_gap_deltas_zero": true,
+  "physical_line_in": true,
+  "lcd_rejection_user_confirmed_for_at_least_one": true,
+  "cases": [
+    {
+      "title": "雨下一整晚",
+      "artist": "周杰伦",
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_unknown_rain_45.json",
+      "lcd_user_observed": true
+    },
+    {
+      "title": "起风了",
+      "artist": "冯沁苑(买辣椒也用券)",
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_unknown_wind_45.json",
+      "lcd_user_observed": false
+    },
+    {
+      "title": "达尔文",
+      "artist": "林俊杰",
+      "passed": true,
+      "evidence": "evidence/hardware/line_cases/line_unknown_darwin_45.json",
+      "lcd_user_observed": false
+    }
+  ]
+}

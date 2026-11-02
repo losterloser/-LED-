@@ -1,0 +1,69 @@
+{
+  "policy": "navigator-display-v3-mic-temporal-acquisition",
+  "cases": 11,
+  "passed": 11,
+  "all_passed": true,
+  "checks": [
+    {
+      "case": "current_phone_MIC_cold_start",
+      "passed": true,
+      "first_replay_confirmation_seconds": 14.0,
+      "validation_material_used_in_design": true,
+      "new_hardware_test": false
+    },
+    {
+      "case": "current_phone_MIC_uses_temporal_evidence",
+      "passed": true
+    },
+    {
+      "case": "current_phone_pause_clears_title",
+      "passed": true
+    },
+    {
+      "case": "unknown_original_冯沁苑(买辣椒也用券) - 起风了",
+      "passed": true
+    },
+    {
+      "case": "unknown_noisy_冯沁苑(买辣椒也用券) - 起风了",
+      "passed": true
+    },
+    {
+      "case": "unknown_original_周杰伦 - 雨下一整晚",
+      "passed": true
+    },
+    {
+      "case": "unknown_noisy_周杰伦 - 雨下一整晚",
+      "passed": true
+    },
+    {
+      "case": "unknown_original_林俊杰 - 达尔文",
+      "passed": true
+    },
+    {
+      "case": "unknown_noisy_林俊杰 - 达尔文",
+      "passed": true
+    },
+    {
+      "case": "silence",
+      "passed": true
+    },
+    {
+      "case": "white_noise",
+      "passed": true
+    }
+  ],
+  "hardware_accessed": false,
+  "audio_played": false,
+  "network_used": false,
+  "library_sha256": "df10f3eae4da3e234328fde21da6ca4e8ad97e29be0d66367caf8ff52b864169",
+  "physical_stability_accepted": false,
+  "limitations": [
+    "The current positive recording was used to design this prototype; not a held-out accuracy estimate",
+    "Adjacent eight-second windows overlap; four windows are not four independent recordings"
+  ],
+  "sources": {
+    "songid.py": "e94e737f8e3e21c5a00f2f0e30af452b9338ad6d570b34d79c6b41b40a36547a",
+    "recognition_tracker.py": "bacec78e83323c0c76767686ae27cb784ffac586fc70bc5bcce8bbfb9540a76b",
+    "live.py": "2e2970a1c586a3b6815a0a278665a58141b89998fe16ab1c871f388742d04e31"
+  }
+}

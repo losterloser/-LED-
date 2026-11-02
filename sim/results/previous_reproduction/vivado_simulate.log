@@ -1,0 +1,2440 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Nov  1 23:12:14 2026
+# Process ID: 13508
+# Current directory: R:/
+# Command line: vivado.exe -mode batch -notrace -log reports/build_simulate_20261101_231213.log -journal reports/build_simulate_20261101_231213.jou -source scripts/run_checks.tcl -tclargs simulate
+# Log file: R:/reports/build_simulate_20261101_231213.log
+# Journal file: R:/reports/build_simulate_20261101_231213.jou
+# Running On: DESKTOP-JF9ET1Q, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 16, Host memory: 16907 MB
+#-----------------------------------------------------------
+source scripts/run_checks.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '<VIVADO_INSTALL>/data/ip'.
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fft_1024'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fft_1024'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'fft_1024'...
+INFO: [IP_Flow 19-1686] Generating 'C Simulation' target for IP 'fft_1024'...
+INFO: [IP_Flow 19-1686] Generating 'Test Bench' target for IP 'fft_1024'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'fft_1024'...
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_music'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_music'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'r:/vivado/navigator7010_music_rgb_lcd_recognizer.gen/sources_1/ip/ila_music/ila_music_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_music'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_music'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_music'...
+update_compile_order: Time (s): cpu = 00:00:00 ; elapsed = 00:01:15 . Memory (MB): peak = 551.656 ; gain = 5.012
+PROJECT_READY: R:/vivado/navigator7010_music_rgb_lcd_recognizer.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '<VIVADO_INSTALL>/data/ip'.
+update_compile_order: Time (s): cpu = 00:00:00 ; elapsed = 00:01:14 . Memory (MB): peak = 551.656 ; gain = 0.000
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_reset_sync'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13659] Precompiled IP simulation library mode is disabled. IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_reset_sync' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_reset_sync_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<VIVADO_INSTALL>/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" into library xpm
+INFO: [VRFC 10-311] analyzing module xpm_cdc_single
+INFO: [VRFC 10-311] analyzing module xpm_cdc_gray
+INFO: [VRFC 10-311] analyzing module xpm_cdc_handshake
+INFO: [VRFC 10-311] analyzing module xpm_cdc_pulse
+INFO: [VRFC 10-311] analyzing module xpm_cdc_array_single
+INFO: [VRFC 10-311] analyzing module xpm_cdc_sync_rst
+INFO: [VRFC 10-311] analyzing module xpm_cdc_async_rst
+INFO: [VRFC 10-311] analyzing module xpm_cdc_low_latency_handshake
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<VIVADO_INSTALL>/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" into library xpm
+INFO: [VRFC 10-311] analyzing module xpm_memory_base
+INFO: [VRFC 10-311] analyzing module asym_bwe_bb
+INFO: [VRFC 10-311] analyzing module xpm_memory_dpdistram
+INFO: [VRFC 10-311] analyzing module xpm_memory_dprom
+INFO: [VRFC 10-311] analyzing module xpm_memory_sdpram
+INFO: [VRFC 10-311] analyzing module xpm_memory_spram
+INFO: [VRFC 10-311] analyzing module xpm_memory_sprom
+INFO: [VRFC 10-311] analyzing module xpm_memory_tdpram
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/reset_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reset_sync
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_reset_sync.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_reset_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj tb_reset_sync_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "<VIVADO_INSTALL>/data/ip/xpm/xpm_VCOMP.vhd" into library xpm
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_reset_sync_behav xil_defaultlib.tb_reset_sync xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_reset_sync_behav xil_defaultlib.tb_reset_sync xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.reset_sync
+Compiling module xil_defaultlib.tb_reset_sync
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_reset_sync_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_reset_sync_behav -key {Behavioral:sim_1:Functional:tb_reset_sync} -tclbatch {tb_reset_sync.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_reset_sync.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_reset_sync_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+PASS tb_reset_sync: synchronous output, short pulse retained, held reset and clean release
+$finish called at time : 206 ns : File "R:/sim/tb_reset_sync.sv" Line 37
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_reset_sync
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_board_controls'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_board_controls' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_board_controls_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/board_controls.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module board_controls
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_board_controls.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_board_controls
+"xvhdl --incr --relax -prj tb_board_controls_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_board_controls_behav xil_defaultlib.tb_board_controls xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_board_controls_behav xil_defaultlib.tb_board_controls xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.board_controls(STABLE_CYCLES=12)
+Compiling module xil_defaultlib.tb_board_controls
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_board_controls_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_board_controls_behav -key {Behavioral:sim_1:Functional:tb_board_controls} -tclbatch {tb_board_controls.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_board_controls.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_board_controls_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+PASS tb_board_controls: debounce, single press, hold, ROM/MIC/LINE cycling, independent chase toggle and reset
+$finish called at time : 6340 ns : File "R:/sim/tb_board_controls.sv" Line 29
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_board_controls
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_test_source'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_test_source' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_test_source_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/test_source.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_source
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_test_source.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_test_source
+"xvhdl --incr --relax -prj tb_test_source_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_test_source_behav xil_defaultlib.tb_test_source xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_test_source_behav xil_defaultlib.tb_test_source xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.test_source(CLOCK_HZ=3072000)
+Compiling module xil_defaultlib.tb_test_source
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_test_source_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_test_source_behav -key {Behavioral:sim_1:Functional:tb_test_source} -tclbatch {tb_test_source.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_test_source.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_test_source_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+PASS tb_test_source: ROM wrap, sample cadence, restart after reset
+$finish called at time : 2621840 ns : File "R:/sim/tb_test_source.sv" Line 31
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_test_source
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_es8388_init'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_es8388_init' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_es8388_init_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/es8388_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module es8388_init
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/i2c_write24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_write24
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/i2c_slave_model.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_slave_model
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_es8388_init.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_es8388_init
+"xvhdl --incr --relax -prj tb_es8388_init_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_es8388_init_behav xil_defaultlib.tb_es8388_init xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_es8388_init_behav xil_defaultlib.tb_es8388_init xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.i2c_write24(QUARTER_CYCLES=8,TIM...
+Compiling module xil_defaultlib.es8388_init(POWERUP_CYCLES=20,RE...
+Compiling module xil_defaultlib.i2c_slave_model
+Compiling module xil_defaultlib.tb_es8388_init
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_es8388_init_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_es8388_init_behav -key {Behavioral:sim_1:Functional:tb_es8388_init} -tclbatch {tb_es8388_init.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_es8388_init.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_es8388_init_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+PASS tb_es8388_init: pin-level 24-write MIC/LINE profiles, 0x20 address, DAC off, transient retry, all three NACK positions
+$finish called at time : 1096531 ns : File "R:/sim/tb_es8388_init.sv" Line 53
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_es8388_init
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_i2c_faults'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_i2c_faults' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_i2c_faults_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_i2c_faults.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_i2c_faults
+"xvhdl --incr --relax -prj tb_i2c_faults_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_i2c_faults_behav xil_defaultlib.tb_i2c_faults xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_i2c_faults_behav xil_defaultlib.tb_i2c_faults xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.i2c_write24(QUARTER_CYCLES=12,TI...
+Compiling module xil_defaultlib.i2c_slave_model
+Compiling module xil_defaultlib.tb_i2c_faults
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_i2c_faults_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_i2c_faults_behav -key {Behavioral:sim_1:Functional:tb_i2c_faults} -tclbatch {tb_i2c_faults.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_i2c_faults.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_i2c_faults_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+PASS tb_i2c_faults: clock stretching, stuck-low timeout, bus release and next-write recovery
+$finish called at time : 52091 ns : File "R:/sim/tb_i2c_faults.sv" Line 29
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_i2c_faults
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_i2s_rx_stereo'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_i2s_rx_stereo' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_i2s_rx_stereo_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/i2s_rx_stereo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2s_rx_stereo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_i2s_rx_stereo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_i2s_rx_stereo
+"xvhdl --incr --relax -prj tb_i2s_rx_stereo_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_i2s_rx_stereo_behav xil_defaultlib.tb_i2s_rx_stereo xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_i2s_rx_stereo_behav xil_defaultlib.tb_i2s_rx_stereo xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.i2s_rx_stereo
+Compiling module xil_defaultlib.tb_i2s_rx_stereo
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_i2s_rx_stereo_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_i2s_rx_stereo_behav -key {Behavioral:sim_1:Functional:tb_i2s_rx_stereo} -tclbatch {tb_i2s_rx_stereo.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_i2s_rx_stereo.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_i2s_rx_stereo_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+PASS tb_i2s_rx_stereo: asynchronous 32-bit-slot I2S, delay bit, signed stereo, padding, malformed-slot suppression, resynchronization
+$finish called at time : 118051 ns : File "R:/sim/tb_i2s_rx_stereo.sv" Line 45
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_i2s_rx_stereo
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_audio_clocks'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_audio_clocks' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_audio_clocks_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/audio_clock_tree.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module audio_clock_tree
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/i2s_master_clock.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2s_master_clock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_audio_clocks.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_audio_clocks
+"xvhdl --incr --relax -prj tb_audio_clocks_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_audio_clocks_behav xil_defaultlib.tb_audio_clocks xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_audio_clocks_behav xil_defaultlib.tb_audio_clocks xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=18.12...
+Compiling module unisims_ver.MMCME2_BASE(CLKFBOUT_MULT_F=18.1...
+Compiling module xil_defaultlib.audio_clock_tree
+Compiling module xil_defaultlib.reset_sync
+Compiling module unisims_ver.ODDR(DDR_CLK_EDGE="SAME_EDGE")
+Compiling module xil_defaultlib.i2s_master_clock
+Compiling module xil_defaultlib.tb_audio_clocks
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_audio_clocks_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_audio_clocks_behav -key {Behavioral:sim_1:Functional:tb_audio_clocks} -tclbatch {tb_audio_clocks.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_audio_clocks.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_audio_clocks_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 553.039 ; gain = 1.383
+PASS tb_audio_clocks: real MMCM/BUFG/ODDR simulation, core 50MHz, MCLK~12.288136MHz, BCLK=MCLK/4, LRCK=MCLK/256, reset/relock
+$finish called at time : 92643103 ps : File "R:/sim/tb_audio_clocks.sv" Line 30
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_audio_clocks
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_spectrum_pipeline'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_spectrum_pipeline' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_spectrum_pipeline_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/fft_analyzer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fft_analyzer
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/fft_frame_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fft_frame_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/spectrum_bands.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spectrum_bands
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_spectrum_pipeline.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_spectrum_pipeline
+"xvhdl --incr --relax -prj tb_spectrum_pipeline_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd" into library xbip_utils_v3_0_10
+INFO: [VRFC 10-163] Analyzing VHDL file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.ip_user_files/ipstatic/hdl/axi_utils_v2_0_vh_rfs.vhd" into library axi_utils_v2_0_6
+INFO: [VRFC 10-3107] analyzing entity 'glb_srl_fifo'
+INFO: [VRFC 10-3107] analyzing entity 'glb_ifx_slave'
+INFO: [VRFC 10-3107] analyzing entity 'glb_ifx_master'
+INFO: [VRFC 10-3107] analyzing entity 'axi_slave_2to1'
+INFO: [VRFC 10-3107] analyzing entity 'axi_slave_3to1'
+INFO: [VRFC 10-3107] analyzing entity 'axi_slave_4to1'
+INFO: [VRFC 10-163] Analyzing VHDL file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.ip_user_files/ipstatic/hdl/c_reg_fd_v12_0_vh_rfs.vhd" into library c_reg_fd_v12_0_6
+INFO: [VRFC 10-3107] analyzing entity 'c_reg_fd_v12_0_6_viv'
+INFO: [VRFC 10-3107] analyzing entity 'c_reg_fd_v12_0_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.ip_user_files/ipstatic/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd" into library xbip_dsp48_wrapper_v3_0_4
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48a_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48a1_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48e_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48e1_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48e2_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp58e5_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_wrapper_v3_0_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd" into library xbip_pipe_v3_0_6
+INFO: [VRFC 10-3107] analyzing entity 'xbip_pipe_v3_0_6_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_pipe_v3_0_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.ip_user_files/ipstatic/hdl/xbip_dsp48_addsub_v3_0_vh_rfs.vhd" into library xbip_dsp48_addsub_v3_0_6
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_addsub_rtl'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_addsub_synth'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_addsub_v3_0_6_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_addsub_v3_0_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.ip_user_files/ipstatic/hdl/xbip_addsub_v3_0_vh_rfs.vhd" into library xbip_addsub_v3_0_6
+INFO: [VRFC 10-3107] analyzing entity 'xbip_addsub_v3_0_6_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_addsub_v3_0_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.ip_user_files/ipstatic/hdl/c_addsub_v12_0_vh_rfs.vhd" into library c_addsub_v12_0_14
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_v12_0_14_lut6_legacy'
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_v12_0_14_base_legacy'
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_v12_0_14_fabric_legacy'
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_v12_0_14_legacy'
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_v12_0_14_viv'
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_v12_0_14'
+INFO: [VRFC 10-163] Analyzing VHDL file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.ip_user_files/ipstatic/hdl/c_mux_bit_v12_0_vh_rfs.vhd" into library c_mux_bit_v12_0_6
+INFO: [VRFC 10-3107] analyzing entity 'c_mux_bit_pipereg'
+INFO: [VRFC 10-3107] analyzing entity 'c_mux_bit_4to1'
+INFO: [VRFC 10-3107] analyzing entity 'c_mux_bit_8to1'
+INFO: [VRFC 10-3107] analyzing entity 'c_mux_bit_16to1'
+INFO: [VRFC 10-3107] analyzing entity 'c_mux_bit_32to1'
+INFO: [VRFC 10-3107] analyzing entity 'c_mux_bit_v12_0_6_viv'
+INFO: [VRFC 10-3107] analyzing entity 'c_mux_bit_v12_0_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.ip_user_files/ipstatic/hdl/c_shift_ram_v12_0_vh_rfs.vhd" into library c_shift_ram_v12_0_14
+INFO: [VRFC 10-3107] analyzing entity 'flop'
+INFO: [VRFC 10-3107] analyzing entity 'sr'
+INFO: [VRFC 10-3107] analyzing entity 'srl_clb'
+INFO: [VRFC 10-3107] analyzing entity 'c_shift_ram_speedmux'
+INFO: [VRFC 10-3107] analyzing entity 'c_shift_ram_v12_0_14_legacy'
+INFO: [VRFC 10-3107] analyzing entity 'c_shift_ram_v12_0_14_viv'
+INFO: [VRFC 10-3107] analyzing entity 'c_shift_ram_v12_0_14'
+INFO: [VRFC 10-163] Analyzing VHDL file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.ip_user_files/ipstatic/hdl/xbip_bram18k_v3_0_vh_rfs.vhd" into library xbip_bram18k_v3_0_6
+INFO: [VRFC 10-3107] analyzing entity 'xbip_bram18k_synth'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_bram18k_rtl'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_bram18k_v3_0_6_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_bram18k_v3_0_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.ip_user_files/ipstatic/hdl/mult_gen_v12_0_vh_rfs.vhd" into library mult_gen_v12_0_18
+INFO: [VRFC 10-3107] analyzing entity 'op_resize'
+INFO: [VRFC 10-3107] analyzing entity 'delay_line'
+INFO: [VRFC 10-3107] analyzing entity 'cc_compare'
+INFO: [VRFC 10-3107] analyzing entity 'luts'
+INFO: [VRFC 10-3107] analyzing entity 'mult18'
+INFO: [VRFC 10-3107] analyzing entity 'dsp'
+INFO: [VRFC 10-3107] analyzing entity 'hybrid'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_dist_mem'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_sp_block_mem'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_dp_block_mem'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_syncmem'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_scaled_adder'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_operation'
+INFO: [VRFC 10-3107] analyzing entity 'ccm'
+INFO: [VRFC 10-3107] analyzing entity 'three_input_adder'
+INFO: [VRFC 10-3107] analyzing entity 'multmxn_lut6'
+INFO: [VRFC 10-3107] analyzing entity 'mult_gen_v12_0_18_viv'
+INFO: [VRFC 10-3107] analyzing entity 'mult_gen_v12_0_18'
+INFO: [VRFC 10-163] Analyzing VHDL file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.ip_user_files/ipstatic/hdl/cmpy_v6_0_vh_rfs.vhd" into library cmpy_v6_0_21
+INFO: [VRFC 10-3107] analyzing entity 'delay_line'
+INFO: [VRFC 10-3107] analyzing entity 'input_negation'
+INFO: [VRFC 10-3107] analyzing entity 'three_input_adder'
+INFO: [VRFC 10-3107] analyzing entity 'cmpy_xfft_so_sync'
+INFO: [VRFC 10-3107] analyzing entity 'cmpy_mux2to1'
+INFO: [VRFC 10-3107] analyzing entity 'cmpy_3_mult18_lut'
+INFO: [VRFC 10-3107] analyzing entity 'cmpy_3_dsp48_mult'
+INFO: [VRFC 10-3107] analyzing entity 'cmpy_3_dsp48'
+INFO: [VRFC 10-3107] analyzing entity 'cmpy_4_mult18_lut'
+INFO: [VRFC 10-3107] analyzing entity 'cmpy_4_dsp48_mult'
+INFO: [VRFC 10-3107] analyzing entity 'cmpy_4_dsp48'
+INFO: [VRFC 10-3107] analyzing entity 'cmpy_dspcplx'
+INFO: [VRFC 10-3107] analyzing entity 'cmpy_v6_0_21_synth'
+INFO: [VRFC 10-3107] analyzing entity 'cmpy_v6_0_21_viv'
+INFO: [VRFC 10-3107] analyzing entity 'cmpy_v6_0_21'
+INFO: [VRFC 10-163] Analyzing VHDL file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.ip_user_files/ipstatic/hdl/floating_point_v7_0_vh_rfs.vhd" into library floating_point_v7_0_20
+INFO: [VRFC 10-3107] analyzing entity 'fdgS'
+INFO: [VRFC 10-3107] analyzing entity 'fdgW'
+INFO: [VRFC 10-3107] analyzing entity 'lutV'
+INFO: [VRFC 10-3107] analyzing entity 'lutS'
+INFO: [VRFC 10-3107] analyzing entity 'lutN'
+INFO: [VRFC 10-3107] analyzing entity 'lutNMuxS'
+INFO: [VRFC 10-3107] analyzing entity 'srl16eS'
+INFO: [VRFC 10-3107] analyzing entity 'delayS'
+INFO: [VRFC 10-3107] analyzing entity 'andW'
+INFO: [VRFC 10-3107] analyzing entity 'orW'
+INFO: [VRFC 10-3107] analyzing entity 'srl16ew'
+INFO: [VRFC 10-3107] analyzing entity 'delayW'
+INFO: [VRFC 10-3107] analyzing entity 'compW'
+INFO: [VRFC 10-3107] analyzing entity 'addSubW'
+INFO: [VRFC 10-3107] analyzing entity 'equalW'
+INFO: [VRFC 10-3107] analyzing entity 'addW'
+INFO: [VRFC 10-3107] analyzing entity 'mult18'
+INFO: [VRFC 10-3107] analyzing entity 'cntrlgen'
+INFO: [VRFC 10-3107] analyzing entity 'cntrlgen2'
+INFO: [VRFC 10-3107] analyzing entity 'ppGenR8'
+INFO: [VRFC 10-3107] analyzing entity 'ppGenR8Msb2'
+INFO: [VRFC 10-3107] analyzing entity 'addSubShGW'
+INFO: [VRFC 10-3107] analyzing entity 'addSubShFW'
+INFO: [VRFC 10-3107] analyzing entity 'vmRoundW'
+INFO: [VRFC 10-3107] analyzing entity 'vmsMultCore'
+INFO: [VRFC 10-3107] analyzing entity 'wideEmbedMult4'
+INFO: [VRFC 10-3107] analyzing entity 'wideEmbedMult16'
+INFO: [VRFC 10-3107] analyzing entity 'wideEmbedMult'
+INFO: [VRFC 10-3107] analyzing entity 'dsp48MultALine'
+INFO: [VRFC 10-3107] analyzing entity 'dsp48Mult'
+INFO: [VRFC 10-3107] analyzing entity 'xMult'
+INFO: [VRFC 10-3107] analyzing entity 'delay'
+INFO: [VRFC 10-3107] analyzing entity 'delay_s'
+INFO: [VRFC 10-3107] analyzing entity 'mux_bus2'
+INFO: [VRFC 10-3107] analyzing entity 'twos_comp'
+INFO: [VRFC 10-3107] analyzing entity 'carry_chain'
+INFO: [VRFC 10-3107] analyzing entity 'mux4'
+INFO: [VRFC 10-3107] analyzing entity 'compare_gt'
+INFO: [VRFC 10-3107] analyzing entity 'compare_eq_im'
+INFO: [VRFC 10-3107] analyzing entity 'compare_ne_im'
+INFO: [VRFC 10-3107] analyzing entity 'compare_eq'
+INFO: [VRFC 10-3107] analyzing entity 'compare'
+INFO: [VRFC 10-3107] analyzing entity 'special_detect'
+INFO: [VRFC 10-3107] analyzing entity 'norm_zero_det'
+INFO: [VRFC 10-3107] analyzing entity 'zero_det_sel'
+INFO: [VRFC 10-3107] analyzing entity 'shift_msb_first'
+INFO: [VRFC 10-3107] analyzing entity 'flt_dec_op'
+INFO: [VRFC 10-3107] analyzing entity 'flt_dec_op_lat'
+INFO: [VRFC 10-3107] analyzing entity 'lead_zero_encode'
+INFO: [VRFC 10-3107] analyzing entity 'lead_zero_encode_shift'
+INFO: [VRFC 10-3107] analyzing entity 'dsp48e1_wrapper'
+INFO: [VRFC 10-3107] analyzing entity 'dsp48e2_wrapper'
+INFO: [VRFC 10-3107] analyzing entity 'addsub_logic'
+INFO: [VRFC 10-3107] analyzing entity 'addsub_dsp'
+INFO: [VRFC 10-3107] analyzing entity 'addsub'
+INFO: [VRFC 10-3107] analyzing entity 'flt_round_bit'
+INFO: [VRFC 10-3107] analyzing entity 'renorm_and_round_logic'
+INFO: [VRFC 10-3107] analyzing entity 'norm_and_round_dsp48e1_sgl'
+INFO: [VRFC 10-3107] analyzing entity 'norm_and_round_logic'
+INFO: [VRFC 10-3107] analyzing entity 'alignment'
+INFO: [VRFC 10-3107] analyzing entity 'normalize'
+INFO: [VRFC 10-3107] analyzing entity 'align_add_dsp48e1_sgl'
+INFO: [VRFC 10-3107] analyzing entity 'align_add'
+INFO: [VRFC 10-3107] analyzing entity 'multadd'
+INFO: [VRFC 10-3107] analyzing entity 'compare_ge'
+INFO: [VRFC 10-3107] analyzing entity 'fix_to_flt_conv_exp'
+INFO: [VRFC 10-3107] analyzing entity 'fix_to_flt_conv'
+INFO: [VRFC 10-3107] analyzing entity 'flt_to_fix_conv'
+INFO: [VRFC 10-3107] analyzing entity 'flt_to_flt_conv_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_to_flt_conv'
+INFO: [VRFC 10-3107] analyzing entity 'fp_cmp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_sqrt_mant_addsub'
+INFO: [VRFC 10-3107] analyzing entity 'flt_sqrt_mant'
+INFO: [VRFC 10-3107] analyzing entity 'flt_sqrt_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_sqrt'
+INFO: [VRFC 10-3107] analyzing entity 'flt_div_mant_addsub'
+INFO: [VRFC 10-3107] analyzing entity 'flt_div_mant'
+INFO: [VRFC 10-3107] analyzing entity 'flt_div_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_div'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_dsp48e1_lat_dbl'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_dsp48e1_sgl'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_dsp48e1_dbl'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_dsp48e2_dbl'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_qq'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_xx'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult'
+INFO: [VRFC 10-3107] analyzing entity 'flt_round_dsp_opt_full'
+INFO: [VRFC 10-3107] analyzing entity 'flt_round_dsp_opt_part'
+INFO: [VRFC 10-3107] analyzing entity 'flt_mult_round'
+INFO: [VRFC 10-3107] analyzing entity 'flt_mult_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_mult'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_logic'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_dsp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_lat_align_add'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_lat_norm'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_lat_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_lat'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_approx'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_nr'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_reduction_calc'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_eval'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_postprocess'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_specialcase'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_recomb'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recipsqrt_dp_m_calc'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_addsub'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_addsub_taylor_fabric'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_addsub_taylor_combiner_fabric'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_single_one_detect'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_inproc'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_L_block_memory'
+INFO: [VRFC 10-3107] analyzing entity 'flt_pt_log_L_block'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_rr_mul_iter'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_rr_mul'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_rr'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_taylor'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_shift_msb_first'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_lead_zero_encode'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_normalize'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_norm'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_rnd'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_specialcase'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_recomb'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_specialcase'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_recomb'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_ccm'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_e2A'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_dp_poly'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_e2zmzm1'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_specialcase'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_round_bit'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_renorm_and_round_logic'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_special_detect'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_add_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_alignment'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_addsub_dsp1'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_addsub_dsp2'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_addsub'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_align_add'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_norm_logic'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_add_logic'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_add'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_mul'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma'
+INFO: [VRFC 10-3107] analyzing entity 'flt_accum_flt_to_fix'
+INFO: [VRFC 10-3107] analyzing entity 'flt_accum_bit_encode'
+INFO: [VRFC 10-3107] analyzing entity 'flt_accum'
+INFO: [VRFC 10-3107] analyzing entity 'floating_point_v7_0_20_viv'
+INFO: [VRFC 10-3107] analyzing entity 'floating_point_v7_0_20'
+INFO: [VRFC 10-163] Analyzing VHDL file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.ip_user_files/ipstatic/hdl/xfft_v9_1_vh_rfs.vhd" into library xfft_v9_1_8
+INFO: [VRFC 10-3107] analyzing entity 'adder'
+INFO: [VRFC 10-3107] analyzing entity 'adder_bypass'
+INFO: [VRFC 10-3107] analyzing entity 'logic_gate'
+INFO: [VRFC 10-3107] analyzing entity 'equ_rtl'
+INFO: [VRFC 10-3107] analyzing entity 'cnt_sat'
+INFO: [VRFC 10-3107] analyzing entity 'cnt_tc_rtl'
+INFO: [VRFC 10-3107] analyzing entity 'cnt_tc_rtl_a'
+INFO: [VRFC 10-3107] analyzing entity 'cnt_tc_rtl_b'
+INFO: [VRFC 10-3107] analyzing entity 'shift_ram'
+INFO: [VRFC 10-3107] analyzing entity 'srl_fifo'
+INFO: [VRFC 10-3107] analyzing entity 'mux_bus2'
+INFO: [VRFC 10-3107] analyzing entity 'mux_bus4'
+INFO: [VRFC 10-3107] analyzing entity 'mux_bus8'
+INFO: [VRFC 10-3107] analyzing entity 'mux_bus16'
+INFO: [VRFC 10-3107] analyzing entity 'mux_bus32'
+INFO: [VRFC 10-3107] analyzing entity 'dist_mem'
+INFO: [VRFC 10-3107] analyzing entity 'dpm'
+INFO: [VRFC 10-3107] analyzing entity 'dpm_hybrid'
+INFO: [VRFC 10-3107] analyzing entity 'reg_rs_rtl'
+INFO: [VRFC 10-3107] analyzing entity 'sub_byp'
+INFO: [VRFC 10-3107] analyzing entity 'sub_byp_j'
+INFO: [VRFC 10-3107] analyzing entity 'subtracter'
+INFO: [VRFC 10-3107] analyzing entity 'xor_bit_gate'
+INFO: [VRFC 10-3107] analyzing entity 'arith_shift1'
+INFO: [VRFC 10-3107] analyzing entity 'arith_shift3'
+INFO: [VRFC 10-3107] analyzing entity 'butterfly_DSP48E'
+INFO: [VRFC 10-3107] analyzing entity 'butterfly_dsp48e_hybrid'
+INFO: [VRFC 10-3107] analyzing entity 'butterfly_DSP48E_bypass'
+INFO: [VRFC 10-3107] analyzing entity 'butterfly_dsp48e_bypass_hybrid'
+INFO: [VRFC 10-3107] analyzing entity 'butterfly_DSP48E_mul_j_bypass'
+INFO: [VRFC 10-3107] analyzing entity 'butterfly_dsp48e_mul_j_bypass_hybrid'
+INFO: [VRFC 10-3107] analyzing entity 'butterfly_DSP48E_SIMD'
+INFO: [VRFC 10-3107] analyzing entity 'butterfly_DSP48E_SIMD_bypass'
+INFO: [VRFC 10-3107] analyzing entity 'butterfly_DSP48E_SIMD_mul_j_bypass'
+INFO: [VRFC 10-3107] analyzing entity 'bf_dsp'
+INFO: [VRFC 10-3107] analyzing entity 'bf_dsp_bypass'
+INFO: [VRFC 10-3107] analyzing entity 'bf_dsp_mul_j_bypass'
+INFO: [VRFC 10-3107] analyzing entity 'bfly_byp'
+INFO: [VRFC 10-3107] analyzing entity 'bfly_byp_j'
+INFO: [VRFC 10-3107] analyzing entity 'butterfly'
+INFO: [VRFC 10-3107] analyzing entity 'twos_comp'
+INFO: [VRFC 10-3107] analyzing entity 'cmpy'
+INFO: [VRFC 10-3107] analyzing entity 'dfly_byp'
+INFO: [VRFC 10-3107] analyzing entity 'dragonfly_DSP48_bypass'
+INFO: [VRFC 10-3107] analyzing entity 'so_xk_counter'
+INFO: [VRFC 10-3107] analyzing entity 'flow_control_b'
+INFO: [VRFC 10-3107] analyzing entity 'flow_control_c'
+INFO: [VRFC 10-3107] analyzing entity 'max2_2'
+INFO: [VRFC 10-3107] analyzing entity 'in_ranger'
+INFO: [VRFC 10-3107] analyzing entity 'in_switch4'
+INFO: [VRFC 10-3107] analyzing entity 'out_addr_gen_b'
+INFO: [VRFC 10-3107] analyzing entity 'out_switch4'
+INFO: [VRFC 10-3107] analyzing entity 'overflow_gen'
+INFO: [VRFC 10-3107] analyzing entity 'unbiased_round'
+INFO: [VRFC 10-3107] analyzing entity 'pe4'
+INFO: [VRFC 10-3107] analyzing entity 'r2_in_addr'
+INFO: [VRFC 10-3107] analyzing entity 'r2_ovflo_gen'
+INFO: [VRFC 10-3107] analyzing entity 'r2_pe'
+INFO: [VRFC 10-3107] analyzing entity 'range_r2'
+INFO: [VRFC 10-3107] analyzing entity 'r2_ranger'
+INFO: [VRFC 10-3107] analyzing entity 'r2_rw_addr'
+INFO: [VRFC 10-3107] analyzing entity 'r2_tw_addr'
+INFO: [VRFC 10-3107] analyzing entity 'twgen_distmem'
+INFO: [VRFC 10-3107] analyzing entity 'twgen_distmem_so'
+INFO: [VRFC 10-3107] analyzing entity 'twgen_half_sincos'
+INFO: [VRFC 10-3107] analyzing entity 'twgen_quarter_sin'
+INFO: [VRFC 10-3107] analyzing entity 'twiddle_gen'
+INFO: [VRFC 10-3107] analyzing entity 'r2_control'
+INFO: [VRFC 10-3107] analyzing entity 'scale_logic'
+INFO: [VRFC 10-3107] analyzing entity 'r2_datapath'
+INFO: [VRFC 10-3107] analyzing entity 'rw_addr_gen_b'
+INFO: [VRFC 10-3107] analyzing entity 'tw_gen_p2'
+INFO: [VRFC 10-3107] analyzing entity 'tw_gen_p4'
+INFO: [VRFC 10-3107] analyzing entity 'tw_addr_gen'
+INFO: [VRFC 10-3107] analyzing entity 'r4_control'
+INFO: [VRFC 10-3107] analyzing entity 'range_r4'
+INFO: [VRFC 10-3107] analyzing entity 'r4_ranger'
+INFO: [VRFC 10-3107] analyzing entity 'r4_datapath'
+INFO: [VRFC 10-3107] analyzing entity 'r22_twos_comp_mux'
+INFO: [VRFC 10-3107] analyzing entity 'r22_delay_mux'
+INFO: [VRFC 10-3107] analyzing entity 'r22_srl_memory'
+INFO: [VRFC 10-3107] analyzing entity 'r22_memory'
+INFO: [VRFC 10-3107] analyzing entity 'r22_bfly_byp'
+INFO: [VRFC 10-3107] analyzing entity 'r22_bf'
+INFO: [VRFC 10-3107] analyzing entity 'r22_bf_sp'
+INFO: [VRFC 10-3107] analyzing entity 'r22_cnt_ctrl'
+INFO: [VRFC 10-3107] analyzing entity 'r22_flow_ctrl'
+INFO: [VRFC 10-3107] analyzing entity 'r22_ovflo'
+INFO: [VRFC 10-3107] analyzing entity 'r22_busy'
+INFO: [VRFC 10-3107] analyzing entity 'r22_tw_gen'
+INFO: [VRFC 10-3107] analyzing entity 'r22_pe'
+INFO: [VRFC 10-3107] analyzing entity 'r22_right_shift'
+INFO: [VRFC 10-3107] analyzing entity 'r22_shift_decode'
+INFO: [VRFC 10-3107] analyzing entity 'r22_var_unbiased_round'
+INFO: [VRFC 10-3107] analyzing entity 'so_n_counter'
+INFO: [VRFC 10-3107] analyzing entity 'so_io_addr_gen'
+INFO: [VRFC 10-3107] analyzing entity 'so_run_addr_gen_rotator'
+INFO: [VRFC 10-3107] analyzing entity 'so_run_addr_gen_left_shift'
+INFO: [VRFC 10-3107] analyzing entity 'so_run_addr_gen'
+INFO: [VRFC 10-3107] analyzing entity 'so_addr_gen'
+INFO: [VRFC 10-3107] analyzing entity 'so_control_fsm'
+INFO: [VRFC 10-3107] analyzing entity 'so_control'
+INFO: [VRFC 10-3107] analyzing entity 'so_memory'
+INFO: [VRFC 10-3107] analyzing entity 'so_ranger'
+INFO: [VRFC 10-3107] analyzing entity 'so_datapath'
+INFO: [VRFC 10-3107] analyzing entity 'pipe_blank'
+INFO: [VRFC 10-3107] analyzing entity 'fp_get_block_max_exp'
+INFO: [VRFC 10-3107] analyzing entity 'fp_convert_to_block_fp'
+INFO: [VRFC 10-3107] analyzing entity 'fp_convert_to_fp'
+INFO: [VRFC 10-3107] analyzing entity 'fp_shift_ram_clr_op'
+INFO: [VRFC 10-3107] analyzing entity 'axi_wrapper_input_fifo'
+INFO: [VRFC 10-3107] analyzing entity 'axi_wrapper_output_fifo'
+INFO: [VRFC 10-3107] analyzing entity 'axi_wrapper'
+INFO: [VRFC 10-3107] analyzing entity 'xfft_v9_1_8_b'
+INFO: [VRFC 10-3107] analyzing entity 'xfft_v9_1_8_c'
+INFO: [VRFC 10-3107] analyzing entity 'xfft_v9_1_8_d'
+INFO: [VRFC 10-3107] analyzing entity 'xfft_v9_1_8_e'
+INFO: [VRFC 10-3107] analyzing entity 'xfft_v9_1_8_fp'
+INFO: [VRFC 10-3107] analyzing entity 'xfft_v9_1_8_core'
+INFO: [VRFC 10-3107] analyzing entity 'xfft_v9_1_8_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xfft_v9_1_8'
+INFO: [VRFC 10-163] Analyzing VHDL file "R:/vivado/navigator7010_music_rgb_lcd_recognizer.gen/sources_1/ip/fft_1024/sim/fft_1024.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fft_1024'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 555.867 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '14' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L c_mux_bit_v12_0_6 -L c_shift_ram_v12_0_14 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L cmpy_v6_0_21 -L floating_point_v7_0_20 -L xfft_v9_1_8 -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_spectrum_pipeline_behav xil_defaultlib.tb_spectrum_pipeline xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L c_mux_bit_v12_0_6 -L c_shift_ram_v12_0_14 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L cmpy_v6_0_21 -L floating_point_v7_0_20 -L xfft_v9_1_8 -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_spectrum_pipeline_behav xil_defaultlib.tb_spectrum_pipeline xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package xfft_v9_1_8.xfft_v9_1_8_viv_comp
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0_6.axi_utils_v2_0_6_pkg
+Compiling package mult_gen_v12_0_18.mult_gen_v12_0_18_pkg
+Compiling package ieee.std_logic_signed
+Compiling package cmpy_v6_0_21.cmpy_v6_0_21_pkg
+Compiling package floating_point_v7_0_20.floating_point_v7_0_20_consts
+Compiling package floating_point_v7_0_20.floating_point_v7_0_20_exp_table...
+Compiling package floating_point_v7_0_20.floating_point_v7_0_20_pkg
+Compiling package xfft_v9_1_8.pkg
+Compiling package xfft_v9_1_8.xfft_v9_1_8_axi_pkg
+Compiling package axi_utils_v2_0_6.global_util_pkg
+Compiling package axi_utils_v2_0_6.axi_utils_comps
+Compiling package unisim.vcomponents
+Compiling package c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_pkg
+Compiling package c_mux_bit_v12_0_6.c_mux_bit_v12_0_6_viv_comp
+Compiling package c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv_comp
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package xfft_v9_1_8.half_sincos_tw_table
+Compiling package xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv_comp
+Compiling package xbip_addsub_v3_0_6.xbip_addsub_v3_0_6_viv_comp
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_pkg
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_pkg_legacy
+Compiling package xpm.vcomponents
+Compiling package ieee.std_logic_textio
+Compiling package mult_gen_v12_0_18.dsp_pkg
+Compiling module xil_defaultlib.fft_frame_buffer
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_srl_fifo [\glb_srl_fifo(width=1,has_uvprot...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_ifx_slave [\glb_ifx_slave(width=1,has_uvpro...]
+Compiling architecture synth of entity xfft_v9_1_8.axi_wrapper_input_fifo [\axi_wrapper_input_fifo(c_fifo_w...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_srl_fifo [\glb_srl_fifo(width=33,has_uvpro...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_ifx_slave [\glb_ifx_slave(width=33,has_uvpr...]
+Compiling architecture synth of entity xfft_v9_1_8.axi_wrapper_input_fifo [\axi_wrapper_input_fifo(c_fifo_w...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_srl_fifo [\glb_srl_fifo(width=55,has_uvpro...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_ifx_master [\glb_ifx_master(width=55,afull_t...]
+Compiling architecture synth of entity xfft_v9_1_8.axi_wrapper_output_fifo [\axi_wrapper_output_fifo(c_fifo_...]
+Compiling architecture synth of entity xfft_v9_1_8.axi_wrapper [\axi_wrapper(c_nfft_max=10,c_has...]
+Compiling architecture rb18_internal_vhdl_v of entity unisim.RB18_INTERNAL_VHDL [\RB18_INTERNAL_VHDL(bram_size=18...]
+Compiling architecture ramb18e1_v of entity unisim.RAMB18E1 [\RAMB18E1(doa_reg=1,dob_reg=1,ra...]
+Compiling architecture xilinx of entity xfft_v9_1_8.dpm [\dpm(c_xdevicefamily="zynq",widt...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus4 [\mux_bus4(c_xdevicefamily="zynq"...]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus2 [\mux_bus2(c_xdevicefamily="zynq"...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(alumodereg=0,a_input="C...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.op_resize [\op_resize(ai_width=18,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_3_dsp48_mult [\cmpy_3_dsp48_mult(c_xdevicefami...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(alumodereg=0,a_input="C...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.op_resize [\op_resize(ai_width=17,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_3_dsp48_mult [\cmpy_3_dsp48_mult(c_xdevicefami...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_3_dsp48_mult [\cmpy_3_dsp48_mult(c_xdevicefami...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.input_negation [\input_negation(c_xdevicefamily=...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_3_dsp48 [\cmpy_3_dsp48(c_xdevicefamily="z...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_v6_0_21_synth [\cmpy_v6_0_21_synth(c_xdevicefam...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cmpy [\cmpy(c_xdevicefamily="zynq",a_w...]
+Compiling architecture structural of entity c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv [\c_reg_fd_v12_0_6_viv(c_width=32...]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.adder [\adder(c_xdevicefamily="zynq",c_...]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.subtracter [\subtracter(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.butterfly [\butterfly(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_pe [\r2_pe(c_xdevicefamily="zynq",bt...]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_datapath [\r2_datapath(c_xdevicefamily="zy...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111000000001111...]
+Compiling architecture muxf7_v of entity unisim.MUXF7 [muxf7_default]
+Compiling architecture muxf8_v of entity unisim.MUXF8 [muxf8_default]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus16 [\mux_bus16(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.xor_bit_gate [\xor_bit_gate(c_inputs=10)\]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_in_addr [\r2_in_addr(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus4 [\mux_bus4(c_xdevicefamily="zynq"...]
+Compiling architecture xilinx of entity xfft_v9_1_8.xor_bit_gate [\xor_bit_gate(c_inputs=9)\]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_rw_addr [\r2_rw_addr(c_xdevicefamily="zyn...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11001010")(0,7)\]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus2 [\mux_bus2(c_xdevicefamily="zynq"...]
+Compiling architecture structural of entity c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv [\c_reg_fd_v12_0_6_viv(c_sync_pri...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture vcc_v of entity unisim.VCC [vcc_default]
+Compiling architecture xilinx of entity xfft_v9_1_8.twgen_half_sincos [\twgen_half_sincos(c_xdevicefami...]
+Compiling architecture xilinx of entity xfft_v9_1_8.twiddle_gen [\twiddle_gen(c_xdevicefamily="zy...]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus16 [\mux_bus16(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_tw_addr [\r2_tw_addr(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture fde_v of entity unisim.FDE [fde_default]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.equ_rtl [\equ_rtl(c_xdevicefamily="zynq",...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cnt_tc_rtl [\cnt_tc_rtl(c_xdevicefamily="zyn...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.reg_rs_rtl [reg_rs_rtl_default]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10010000000010010000...]
+Compiling architecture xilinx of entity xfft_v9_1_8.equ_rtl [\equ_rtl(c_xdevicefamily="zynq",...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cnt_tc_rtl [\cnt_tc_rtl(c_xdevicefamily="zyn...]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.equ_rtl [\equ_rtl(c_xdevicefamily="zynq",...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cnt_tc_rtl [\cnt_tc_rtl(c_xdevicefamily="zyn...]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.equ_rtl [\equ_rtl(c_xdevicefamily="zynq")...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cnt_tc_rtl [\cnt_tc_rtl(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.flow_control_c [\flow_control_c(c_xdevicefamily=...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_control [\r2_control(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.xfft_v9_1_8_c [\xfft_v9_1_8_c(c_xdevicefamily="...]
+Compiling architecture synth of entity xfft_v9_1_8.xfft_v9_1_8_core [\xfft_v9_1_8_core(c_xdevicefamil...]
+Compiling architecture synth of entity xfft_v9_1_8.xfft_v9_1_8_viv [\xfft_v9_1_8_viv(c_xdevicefamily...]
+Compiling architecture xilinx of entity xfft_v9_1_8.xfft_v9_1_8 [\xfft_v9_1_8(c_xdevicefamily="zy...]
+Compiling architecture fft_1024_arch of entity xil_defaultlib.fft_1024 [fft_1024_default]
+Compiling module xil_defaultlib.fft_analyzer
+Compiling module xil_defaultlib.spectrum_bands
+Compiling module xil_defaultlib.tb_spectrum_pipeline
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_spectrum_pipeline_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 555.867 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '15' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_spectrum_pipeline_behav -key {Behavioral:sim_1:Functional:tb_spectrum_pipeline} -tclbatch {tb_spectrum_pipeline.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_spectrum_pipeline.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_spectrum_pipeline_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:30 . Memory (MB): peak = 555.867 ; gain = 2.828
+PASS tb_spectrum_pipeline: 4 real FFT frames, bins 16/64, bands 7/11, no drops
+$finish called at time : 2715060 ns : File "R:/sim/tb_spectrum_pipeline.sv" Line 66
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:33 . Memory (MB): peak = 555.867 ; gain = 0.000
+INFO: xsimkernel Simulation Memory Usage: 26724 KB (Peak: 26724 KB), Simulation CPU Usage: 32202 ms
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_spectrum_pipeline
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_ws2812_tx'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_ws2812_tx' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_ws2812_tx_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/ws2812_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ws2812_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_ws2812_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ws2812_tx
+"xvhdl --incr --relax -prj tb_ws2812_tx_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_ws2812_tx_behav xil_defaultlib.tb_ws2812_tx xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_ws2812_tx_behav xil_defaultlib.tb_ws2812_tx xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ws2812_tx_default
+Compiling module xil_defaultlib.tb_ws2812_tx
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ws2812_tx_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_ws2812_tx_behav -key {Behavioral:sim_1:Functional:tb_ws2812_tx} -tclbatch {tb_ws2812_tx.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_ws2812_tx.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_ws2812_tx_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+PASS tb_ws2812_tx: 384 bits, GRB/MSB order, 350/650 ns highs, 1250 ns period, 400 us reset, locked frame and reset recovery
+$finish called at time : 3440705 ns : File "R:/sim/tb_ws2812_tx.sv" Line 73
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_ws2812_tx
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_rgb_music_ring'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_rgb_music_ring' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_rgb_music_ring_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/rgb_music_ring.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgb_music_ring
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/rgb_spectrum_map.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgb_spectrum_map
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_rgb_music_ring.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_rgb_music_ring
+"xvhdl --incr --relax -prj tb_rgb_music_ring_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_rgb_music_ring_behav xil_defaultlib.tb_rgb_music_ring xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_rgb_music_ring_behav xil_defaultlib.tb_rgb_music_ring xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.rgb_spectrum_map
+Compiling module xil_defaultlib.ws2812_tx(T1H_CYCLES=70)
+Compiling module xil_defaultlib.rgb_music_ring(REFRESH_HZ=1000,C...
+Compiling module xil_defaultlib.tb_rgb_music_ring
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_rgb_music_ring_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_rgb_music_ring_behav -key {Behavioral:sim_1:Functional:tb_rgb_music_ring} -tclbatch {tb_rgb_music_ring.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_rgb_music_ring.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_rgb_music_ring_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+PASS tb_rgb_music_ring: exact GRB colors, 16 LEDs, live-frame isolation, clear priority, no stale replay, brightness cap, self test and mode return
+$finish called at time : 5479165 ns : File "R:/sim/tb_rgb_music_ring.sv" Line 66
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_rgb_music_ring
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_fft_rgb_integration'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_fft_rgb_integration' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_fft_rgb_integration_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_fft_rgb_integration.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fft_rgb_integration
+"xvhdl --incr --relax -prj tb_fft_rgb_integration_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L c_mux_bit_v12_0_6 -L c_shift_ram_v12_0_14 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L cmpy_v6_0_21 -L floating_point_v7_0_20 -L xfft_v9_1_8 -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_fft_rgb_integration_behav xil_defaultlib.tb_fft_rgb_integration xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L c_mux_bit_v12_0_6 -L c_shift_ram_v12_0_14 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L cmpy_v6_0_21 -L floating_point_v7_0_20 -L xfft_v9_1_8 -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_fft_rgb_integration_behav xil_defaultlib.tb_fft_rgb_integration xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package xfft_v9_1_8.xfft_v9_1_8_viv_comp
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0_6.axi_utils_v2_0_6_pkg
+Compiling package mult_gen_v12_0_18.mult_gen_v12_0_18_pkg
+Compiling package ieee.std_logic_signed
+Compiling package cmpy_v6_0_21.cmpy_v6_0_21_pkg
+Compiling package floating_point_v7_0_20.floating_point_v7_0_20_consts
+Compiling package floating_point_v7_0_20.floating_point_v7_0_20_exp_table...
+Compiling package floating_point_v7_0_20.floating_point_v7_0_20_pkg
+Compiling package xfft_v9_1_8.pkg
+Compiling package xfft_v9_1_8.xfft_v9_1_8_axi_pkg
+Compiling package axi_utils_v2_0_6.global_util_pkg
+Compiling package axi_utils_v2_0_6.axi_utils_comps
+Compiling package unisim.vcomponents
+Compiling package c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_pkg
+Compiling package c_mux_bit_v12_0_6.c_mux_bit_v12_0_6_viv_comp
+Compiling package c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv_comp
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package xfft_v9_1_8.half_sincos_tw_table
+Compiling package xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv_comp
+Compiling package xbip_addsub_v3_0_6.xbip_addsub_v3_0_6_viv_comp
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_pkg
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_pkg_legacy
+Compiling package xpm.vcomponents
+Compiling package ieee.std_logic_textio
+Compiling package mult_gen_v12_0_18.dsp_pkg
+Compiling module xil_defaultlib.fft_frame_buffer
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_srl_fifo [\glb_srl_fifo(width=1,has_uvprot...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_ifx_slave [\glb_ifx_slave(width=1,has_uvpro...]
+Compiling architecture synth of entity xfft_v9_1_8.axi_wrapper_input_fifo [\axi_wrapper_input_fifo(c_fifo_w...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_srl_fifo [\glb_srl_fifo(width=33,has_uvpro...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_ifx_slave [\glb_ifx_slave(width=33,has_uvpr...]
+Compiling architecture synth of entity xfft_v9_1_8.axi_wrapper_input_fifo [\axi_wrapper_input_fifo(c_fifo_w...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_srl_fifo [\glb_srl_fifo(width=55,has_uvpro...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_ifx_master [\glb_ifx_master(width=55,afull_t...]
+Compiling architecture synth of entity xfft_v9_1_8.axi_wrapper_output_fifo [\axi_wrapper_output_fifo(c_fifo_...]
+Compiling architecture synth of entity xfft_v9_1_8.axi_wrapper [\axi_wrapper(c_nfft_max=10,c_has...]
+Compiling architecture rb18_internal_vhdl_v of entity unisim.RB18_INTERNAL_VHDL [\RB18_INTERNAL_VHDL(bram_size=18...]
+Compiling architecture ramb18e1_v of entity unisim.RAMB18E1 [\RAMB18E1(doa_reg=1,dob_reg=1,ra...]
+Compiling architecture xilinx of entity xfft_v9_1_8.dpm [\dpm(c_xdevicefamily="zynq",widt...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus4 [\mux_bus4(c_xdevicefamily="zynq"...]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus2 [\mux_bus2(c_xdevicefamily="zynq"...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(alumodereg=0,a_input="C...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.op_resize [\op_resize(ai_width=18,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_3_dsp48_mult [\cmpy_3_dsp48_mult(c_xdevicefami...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(alumodereg=0,a_input="C...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.op_resize [\op_resize(ai_width=17,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_3_dsp48_mult [\cmpy_3_dsp48_mult(c_xdevicefami...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_3_dsp48_mult [\cmpy_3_dsp48_mult(c_xdevicefami...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.input_negation [\input_negation(c_xdevicefamily=...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_3_dsp48 [\cmpy_3_dsp48(c_xdevicefamily="z...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_v6_0_21_synth [\cmpy_v6_0_21_synth(c_xdevicefam...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cmpy [\cmpy(c_xdevicefamily="zynq",a_w...]
+Compiling architecture structural of entity c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv [\c_reg_fd_v12_0_6_viv(c_width=32...]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.adder [\adder(c_xdevicefamily="zynq",c_...]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.subtracter [\subtracter(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.butterfly [\butterfly(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_pe [\r2_pe(c_xdevicefamily="zynq",bt...]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_datapath [\r2_datapath(c_xdevicefamily="zy...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111000000001111...]
+Compiling architecture muxf7_v of entity unisim.MUXF7 [muxf7_default]
+Compiling architecture muxf8_v of entity unisim.MUXF8 [muxf8_default]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus16 [\mux_bus16(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.xor_bit_gate [\xor_bit_gate(c_inputs=10)\]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_in_addr [\r2_in_addr(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus4 [\mux_bus4(c_xdevicefamily="zynq"...]
+Compiling architecture xilinx of entity xfft_v9_1_8.xor_bit_gate [\xor_bit_gate(c_inputs=9)\]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_rw_addr [\r2_rw_addr(c_xdevicefamily="zyn...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11001010")(0,7)\]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus2 [\mux_bus2(c_xdevicefamily="zynq"...]
+Compiling architecture structural of entity c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv [\c_reg_fd_v12_0_6_viv(c_sync_pri...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture vcc_v of entity unisim.VCC [vcc_default]
+Compiling architecture xilinx of entity xfft_v9_1_8.twgen_half_sincos [\twgen_half_sincos(c_xdevicefami...]
+Compiling architecture xilinx of entity xfft_v9_1_8.twiddle_gen [\twiddle_gen(c_xdevicefamily="zy...]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus16 [\mux_bus16(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_tw_addr [\r2_tw_addr(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture fde_v of entity unisim.FDE [fde_default]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.equ_rtl [\equ_rtl(c_xdevicefamily="zynq",...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cnt_tc_rtl [\cnt_tc_rtl(c_xdevicefamily="zyn...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.reg_rs_rtl [reg_rs_rtl_default]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10010000000010010000...]
+Compiling architecture xilinx of entity xfft_v9_1_8.equ_rtl [\equ_rtl(c_xdevicefamily="zynq",...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cnt_tc_rtl [\cnt_tc_rtl(c_xdevicefamily="zyn...]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.equ_rtl [\equ_rtl(c_xdevicefamily="zynq",...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cnt_tc_rtl [\cnt_tc_rtl(c_xdevicefamily="zyn...]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.equ_rtl [\equ_rtl(c_xdevicefamily="zynq")...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cnt_tc_rtl [\cnt_tc_rtl(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.flow_control_c [\flow_control_c(c_xdevicefamily=...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_control [\r2_control(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.xfft_v9_1_8_c [\xfft_v9_1_8_c(c_xdevicefamily="...]
+Compiling architecture synth of entity xfft_v9_1_8.xfft_v9_1_8_core [\xfft_v9_1_8_core(c_xdevicefamil...]
+Compiling architecture synth of entity xfft_v9_1_8.xfft_v9_1_8_viv [\xfft_v9_1_8_viv(c_xdevicefamily...]
+Compiling architecture xilinx of entity xfft_v9_1_8.xfft_v9_1_8 [\xfft_v9_1_8(c_xdevicefamily="zy...]
+Compiling architecture fft_1024_arch of entity xil_defaultlib.fft_1024 [fft_1024_default]
+Compiling module xil_defaultlib.fft_analyzer
+Compiling module xil_defaultlib.spectrum_bands
+Compiling module xil_defaultlib.rgb_spectrum_map
+Compiling module xil_defaultlib.ws2812_tx(T1H_CYCLES=70)
+Compiling module xil_defaultlib.rgb_music_ring(REFRESH_HZ=1000)
+Compiling module xil_defaultlib.tb_fft_rgb_integration
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_fft_rgb_integration_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 566.098 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '15' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_fft_rgb_integration_behav -key {Behavioral:sim_1:Functional:tb_fft_rgb_integration} -tclbatch {tb_fft_rgb_integration.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_fft_rgb_integration.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_fft_rgb_integration_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 566.098 ; gain = 5.008
+PASS tb_fft_rgb_integration: real FFT IP, ROM bin16/bin64, LED8/LED12 exact GRB words, no drop/protocol errors
+$finish called at time : 1759335 ns : File "R:/sim/tb_fft_rgb_integration.sv" Line 47
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:21 . Memory (MB): peak = 566.098 ; gain = 0.000
+INFO: xsimkernel Simulation Memory Usage: 26772 KB (Peak: 26772 KB), Simulation CPU Usage: 19858 ms
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_fft_rgb_integration
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_lcd_timing'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_lcd_timing' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_lcd_timing_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/lcd_timing_1024.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lcd_timing_1024
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_lcd_timing.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_lcd_timing
+"xvhdl --incr --relax -prj tb_lcd_timing_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_lcd_timing_behav xil_defaultlib.tb_lcd_timing xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_lcd_timing_behav xil_defaultlib.tb_lcd_timing xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.lcd_timing_1024
+Compiling module xil_defaultlib.tb_lcd_timing
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_lcd_timing_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_lcd_timing_behav -key {Behavioral:sim_1:Functional:tb_lcd_timing} -tclbatch {tb_lcd_timing.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_lcd_timing.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_lcd_timing_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+PASS tb_lcd_timing: 2 complete 1344x635 frames, 614400 active pixels/frame, 600 lines, coordinates and reset
+$finish called at time : 34137800 ns : File "R:/sim/tb_lcd_timing.sv" Line 26
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_lcd_timing
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_spectrum_renderer'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_spectrum_renderer' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_spectrum_renderer_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/font5x7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module font5x7
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/spectrum_renderer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spectrum_renderer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_spectrum_renderer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_spectrum_renderer
+"xvhdl --incr --relax -prj tb_spectrum_renderer_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_spectrum_renderer_behav xil_defaultlib.tb_spectrum_renderer xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_spectrum_renderer_behav xil_defaultlib.tb_spectrum_renderer xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.font5x7
+Compiling module xil_defaultlib.spectrum_renderer
+Compiling module xil_defaultlib.tb_spectrum_renderer
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_spectrum_renderer_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_spectrum_renderer_behav -key {Behavioral:sim_1:Functional:tb_spectrum_renderer} -tclbatch {tb_spectrum_renderer.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_spectrum_renderer.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_spectrum_renderer_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+PASS tb_spectrum_renderer: 16 colors, exact tone bar heights, clamp, bitmap text, ready/error status, 8-color screen self-test
+$finish called at time : 350 ns : File "R:/sim/tb_spectrum_renderer.sv" Line 30
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_spectrum_renderer
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_lcd_visualizer'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_lcd_visualizer' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_lcd_visualizer_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/lcd_visualizer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lcd_visualizer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_lcd_visualizer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_lcd_visualizer
+"xvhdl --incr --relax -prj tb_lcd_visualizer_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_lcd_visualizer_behav xil_defaultlib.tb_lcd_visualizer xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_lcd_visualizer_behav xil_defaultlib.tb_lcd_visualizer xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.lcd_timing_1024
+Compiling module xil_defaultlib.font5x7
+Compiling module xil_defaultlib.spectrum_renderer
+Compiling module unisims_ver.ODDR(DDR_CLK_EDGE="SAME_EDGE")
+Compiling module xil_defaultlib.lcd_visualizer(RESET_HOLD_CYCLES...
+Compiling module xil_defaultlib.tb_lcd_visualizer
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_lcd_visualizer_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_lcd_visualizer_behav -key {Behavioral:sim_1:Functional:tb_lcd_visualizer} -tclbatch {tb_lcd_visualizer.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_lcd_visualizer.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_lcd_visualizer_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+PASS tb_lcd_visualizer: 4 full frames, no tearing, next-frame mode update, clear priority, colorbar test, 50MHz falling-edge sampling, 10ns setup, backlight and reset
+$finish called at time : 67949960 ns : File "R:/sim/tb_lcd_visualizer.sv" Line 55
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 574.207 ; gain = 0.000
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_lcd_visualizer
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_fft_lcd_integration'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_fft_lcd_integration' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_fft_lcd_integration_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_fft_lcd_integration.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fft_lcd_integration
+"xvhdl --incr --relax -prj tb_fft_lcd_integration_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L c_mux_bit_v12_0_6 -L c_shift_ram_v12_0_14 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L cmpy_v6_0_21 -L floating_point_v7_0_20 -L xfft_v9_1_8 -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_fft_lcd_integration_behav xil_defaultlib.tb_fft_lcd_integration xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L c_mux_bit_v12_0_6 -L c_shift_ram_v12_0_14 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L cmpy_v6_0_21 -L floating_point_v7_0_20 -L xfft_v9_1_8 -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_fft_lcd_integration_behav xil_defaultlib.tb_fft_lcd_integration xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package xfft_v9_1_8.xfft_v9_1_8_viv_comp
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0_6.axi_utils_v2_0_6_pkg
+Compiling package mult_gen_v12_0_18.mult_gen_v12_0_18_pkg
+Compiling package ieee.std_logic_signed
+Compiling package cmpy_v6_0_21.cmpy_v6_0_21_pkg
+Compiling package floating_point_v7_0_20.floating_point_v7_0_20_consts
+Compiling package floating_point_v7_0_20.floating_point_v7_0_20_exp_table...
+Compiling package floating_point_v7_0_20.floating_point_v7_0_20_pkg
+Compiling package xfft_v9_1_8.pkg
+Compiling package xfft_v9_1_8.xfft_v9_1_8_axi_pkg
+Compiling package axi_utils_v2_0_6.global_util_pkg
+Compiling package axi_utils_v2_0_6.axi_utils_comps
+Compiling package unisim.vcomponents
+Compiling package c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_pkg
+Compiling package c_mux_bit_v12_0_6.c_mux_bit_v12_0_6_viv_comp
+Compiling package c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv_comp
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package xfft_v9_1_8.half_sincos_tw_table
+Compiling package xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv_comp
+Compiling package xbip_addsub_v3_0_6.xbip_addsub_v3_0_6_viv_comp
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_pkg
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_pkg_legacy
+Compiling package xpm.vcomponents
+Compiling package ieee.std_logic_textio
+Compiling package mult_gen_v12_0_18.dsp_pkg
+Compiling module xil_defaultlib.fft_frame_buffer
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_srl_fifo [\glb_srl_fifo(width=1,has_uvprot...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_ifx_slave [\glb_ifx_slave(width=1,has_uvpro...]
+Compiling architecture synth of entity xfft_v9_1_8.axi_wrapper_input_fifo [\axi_wrapper_input_fifo(c_fifo_w...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_srl_fifo [\glb_srl_fifo(width=33,has_uvpro...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_ifx_slave [\glb_ifx_slave(width=33,has_uvpr...]
+Compiling architecture synth of entity xfft_v9_1_8.axi_wrapper_input_fifo [\axi_wrapper_input_fifo(c_fifo_w...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_srl_fifo [\glb_srl_fifo(width=55,has_uvpro...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_ifx_master [\glb_ifx_master(width=55,afull_t...]
+Compiling architecture synth of entity xfft_v9_1_8.axi_wrapper_output_fifo [\axi_wrapper_output_fifo(c_fifo_...]
+Compiling architecture synth of entity xfft_v9_1_8.axi_wrapper [\axi_wrapper(c_nfft_max=10,c_has...]
+Compiling architecture rb18_internal_vhdl_v of entity unisim.RB18_INTERNAL_VHDL [\RB18_INTERNAL_VHDL(bram_size=18...]
+Compiling architecture ramb18e1_v of entity unisim.RAMB18E1 [\RAMB18E1(doa_reg=1,dob_reg=1,ra...]
+Compiling architecture xilinx of entity xfft_v9_1_8.dpm [\dpm(c_xdevicefamily="zynq",widt...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus4 [\mux_bus4(c_xdevicefamily="zynq"...]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus2 [\mux_bus2(c_xdevicefamily="zynq"...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(alumodereg=0,a_input="C...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.op_resize [\op_resize(ai_width=18,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_3_dsp48_mult [\cmpy_3_dsp48_mult(c_xdevicefami...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(alumodereg=0,a_input="C...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.op_resize [\op_resize(ai_width=17,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_3_dsp48_mult [\cmpy_3_dsp48_mult(c_xdevicefami...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_3_dsp48_mult [\cmpy_3_dsp48_mult(c_xdevicefami...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.input_negation [\input_negation(c_xdevicefamily=...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_3_dsp48 [\cmpy_3_dsp48(c_xdevicefamily="z...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_v6_0_21_synth [\cmpy_v6_0_21_synth(c_xdevicefam...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cmpy [\cmpy(c_xdevicefamily="zynq",a_w...]
+Compiling architecture structural of entity c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv [\c_reg_fd_v12_0_6_viv(c_width=32...]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.adder [\adder(c_xdevicefamily="zynq",c_...]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.subtracter [\subtracter(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.butterfly [\butterfly(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_pe [\r2_pe(c_xdevicefamily="zynq",bt...]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_datapath [\r2_datapath(c_xdevicefamily="zy...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111000000001111...]
+Compiling architecture muxf7_v of entity unisim.MUXF7 [muxf7_default]
+Compiling architecture muxf8_v of entity unisim.MUXF8 [muxf8_default]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus16 [\mux_bus16(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.xor_bit_gate [\xor_bit_gate(c_inputs=10)\]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_in_addr [\r2_in_addr(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus4 [\mux_bus4(c_xdevicefamily="zynq"...]
+Compiling architecture xilinx of entity xfft_v9_1_8.xor_bit_gate [\xor_bit_gate(c_inputs=9)\]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_rw_addr [\r2_rw_addr(c_xdevicefamily="zyn...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11001010")(0,7)\]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus2 [\mux_bus2(c_xdevicefamily="zynq"...]
+Compiling architecture structural of entity c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv [\c_reg_fd_v12_0_6_viv(c_sync_pri...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture vcc_v of entity unisim.VCC [vcc_default]
+Compiling architecture xilinx of entity xfft_v9_1_8.twgen_half_sincos [\twgen_half_sincos(c_xdevicefami...]
+Compiling architecture xilinx of entity xfft_v9_1_8.twiddle_gen [\twiddle_gen(c_xdevicefamily="zy...]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus16 [\mux_bus16(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_tw_addr [\r2_tw_addr(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture fde_v of entity unisim.FDE [fde_default]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.equ_rtl [\equ_rtl(c_xdevicefamily="zynq",...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cnt_tc_rtl [\cnt_tc_rtl(c_xdevicefamily="zyn...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.reg_rs_rtl [reg_rs_rtl_default]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10010000000010010000...]
+Compiling architecture xilinx of entity xfft_v9_1_8.equ_rtl [\equ_rtl(c_xdevicefamily="zynq",...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cnt_tc_rtl [\cnt_tc_rtl(c_xdevicefamily="zyn...]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.equ_rtl [\equ_rtl(c_xdevicefamily="zynq",...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cnt_tc_rtl [\cnt_tc_rtl(c_xdevicefamily="zyn...]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.equ_rtl [\equ_rtl(c_xdevicefamily="zynq")...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cnt_tc_rtl [\cnt_tc_rtl(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.flow_control_c [\flow_control_c(c_xdevicefamily=...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_control [\r2_control(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.xfft_v9_1_8_c [\xfft_v9_1_8_c(c_xdevicefamily="...]
+Compiling architecture synth of entity xfft_v9_1_8.xfft_v9_1_8_core [\xfft_v9_1_8_core(c_xdevicefamil...]
+Compiling architecture synth of entity xfft_v9_1_8.xfft_v9_1_8_viv [\xfft_v9_1_8_viv(c_xdevicefamily...]
+Compiling architecture xilinx of entity xfft_v9_1_8.xfft_v9_1_8 [\xfft_v9_1_8(c_xdevicefamily="zy...]
+Compiling architecture fft_1024_arch of entity xil_defaultlib.fft_1024 [fft_1024_default]
+Compiling module xil_defaultlib.fft_analyzer
+Compiling module xil_defaultlib.spectrum_bands
+Compiling module xil_defaultlib.lcd_timing_1024
+Compiling module xil_defaultlib.font5x7
+Compiling module xil_defaultlib.spectrum_renderer
+Compiling module unisims_ver.ODDR(DDR_CLK_EDGE="SAME_EDGE")
+Compiling module xil_defaultlib.lcd_visualizer(RESET_HOLD_CYCLES...
+Compiling module xil_defaultlib.tb_fft_lcd_integration
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_fft_lcd_integration_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:16 . Memory (MB): peak = 576.438 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '15' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_fft_lcd_integration_behav -key {Behavioral:sim_1:Functional:tb_fft_lcd_integration} -tclbatch {tb_fft_lcd_integration.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_fft_lcd_integration.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_fft_lcd_integration_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:19 . Memory (MB): peak = 576.438 ; gain = 2.230
+PASS tb_fft_lcd_integration: real FFT IP to complete 1024x600 LCD image, exact cyan/purple bar pixel areas, no drop/protocol errors; lcd_spectrum.ppm generated
+$finish called at time : 33812560100 ps : File "R:/sim/tb_fft_lcd_integration.sv" Line 38
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:03:17 . Memory (MB): peak = 576.438 ; gain = 0.000
+INFO: xsimkernel Simulation Memory Usage: 26904 KB (Peak: 26904 KB), Simulation CPU Usage: 192671 ms
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_fft_lcd_integration
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_top_music_rgb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top_music_rgb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_top_music_rgb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/music_pcm_uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module music_pcm_uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/recognition_decimator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module recognition_decimator
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/recognition_uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module recognition_uart_tx
+INFO: [VRFC 10-311] analyzing module recognition_uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/song_overlay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module song_overlay
+INFO: [VRFC 10-2263] Analyzing Verilog file "R:/src/top_music_rgb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_music_rgb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_top_music_rgb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top_music_rgb
+"xvhdl --incr --relax -prj tb_top_music_rgb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L c_mux_bit_v12_0_6 -L c_shift_ram_v12_0_14 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L cmpy_v6_0_21 -L floating_point_v7_0_20 -L xfft_v9_1_8 -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_music_rgb_behav xil_defaultlib.tb_top_music_rgb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L c_mux_bit_v12_0_6 -L c_shift_ram_v12_0_14 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L cmpy_v6_0_21 -L floating_point_v7_0_20 -L xfft_v9_1_8 -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_music_rgb_behav xil_defaultlib.tb_top_music_rgb xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package xfft_v9_1_8.xfft_v9_1_8_viv_comp
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0_6.axi_utils_v2_0_6_pkg
+Compiling package mult_gen_v12_0_18.mult_gen_v12_0_18_pkg
+Compiling package ieee.std_logic_signed
+Compiling package cmpy_v6_0_21.cmpy_v6_0_21_pkg
+Compiling package floating_point_v7_0_20.floating_point_v7_0_20_consts
+Compiling package floating_point_v7_0_20.floating_point_v7_0_20_exp_table...
+Compiling package floating_point_v7_0_20.floating_point_v7_0_20_pkg
+Compiling package xfft_v9_1_8.pkg
+Compiling package xfft_v9_1_8.xfft_v9_1_8_axi_pkg
+Compiling package axi_utils_v2_0_6.global_util_pkg
+Compiling package axi_utils_v2_0_6.axi_utils_comps
+Compiling package unisim.vcomponents
+Compiling package c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_pkg
+Compiling package c_mux_bit_v12_0_6.c_mux_bit_v12_0_6_viv_comp
+Compiling package c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv_comp
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package xfft_v9_1_8.half_sincos_tw_table
+Compiling package xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv_comp
+Compiling package xbip_addsub_v3_0_6.xbip_addsub_v3_0_6_viv_comp
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_pkg
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_pkg_legacy
+Compiling package xpm.vcomponents
+Compiling package ieee.std_logic_textio
+Compiling package mult_gen_v12_0_18.dsp_pkg
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=18.12...
+Compiling module unisims_ver.MMCME2_BASE(CLKFBOUT_MULT_F=18.1...
+Compiling module xil_defaultlib.audio_clock_tree
+Compiling module xil_defaultlib.reset_sync
+Compiling module unisims_ver.ODDR(DDR_CLK_EDGE="SAME_EDGE")
+Compiling module xil_defaultlib.i2s_master_clock
+Compiling module xil_defaultlib.board_controls(STABLE_CYCLES=12)
+Compiling module xil_defaultlib.i2c_write24(QUARTER_CYCLES=8,TIM...
+Compiling module xil_defaultlib.es8388_init(POWERUP_CYCLES=20,RE...
+Compiling module xil_defaultlib.i2s_rx_stereo
+Compiling module xil_defaultlib.test_source(CLOCK_HZ=50000000,SA...
+Compiling module xil_defaultlib.fft_frame_buffer
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_srl_fifo [\glb_srl_fifo(width=1,has_uvprot...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_ifx_slave [\glb_ifx_slave(width=1,has_uvpro...]
+Compiling architecture synth of entity xfft_v9_1_8.axi_wrapper_input_fifo [\axi_wrapper_input_fifo(c_fifo_w...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_srl_fifo [\glb_srl_fifo(width=33,has_uvpro...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_ifx_slave [\glb_ifx_slave(width=33,has_uvpr...]
+Compiling architecture synth of entity xfft_v9_1_8.axi_wrapper_input_fifo [\axi_wrapper_input_fifo(c_fifo_w...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_srl_fifo [\glb_srl_fifo(width=55,has_uvpro...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_ifx_master [\glb_ifx_master(width=55,afull_t...]
+Compiling architecture synth of entity xfft_v9_1_8.axi_wrapper_output_fifo [\axi_wrapper_output_fifo(c_fifo_...]
+Compiling architecture synth of entity xfft_v9_1_8.axi_wrapper [\axi_wrapper(c_nfft_max=10,c_has...]
+Compiling architecture rb18_internal_vhdl_v of entity unisim.RB18_INTERNAL_VHDL [\RB18_INTERNAL_VHDL(bram_size=18...]
+Compiling architecture ramb18e1_v of entity unisim.RAMB18E1 [\RAMB18E1(doa_reg=1,dob_reg=1,ra...]
+Compiling architecture xilinx of entity xfft_v9_1_8.dpm [\dpm(c_xdevicefamily="zynq",widt...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus4 [\mux_bus4(c_xdevicefamily="zynq"...]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus2 [\mux_bus2(c_xdevicefamily="zynq"...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(alumodereg=0,a_input="C...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.op_resize [\op_resize(ai_width=18,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_3_dsp48_mult [\cmpy_3_dsp48_mult(c_xdevicefami...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(alumodereg=0,a_input="C...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.op_resize [\op_resize(ai_width=17,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_3_dsp48_mult [\cmpy_3_dsp48_mult(c_xdevicefami...]
+Compiling architecture xilinx of entity mult_gen_v12_0_18.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_3_dsp48_mult [\cmpy_3_dsp48_mult(c_xdevicefami...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.input_negation [\input_negation(c_xdevicefamily=...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_3_dsp48 [\cmpy_3_dsp48(c_xdevicefamily="z...]
+Compiling architecture xilinx of entity cmpy_v6_0_21.cmpy_v6_0_21_synth [\cmpy_v6_0_21_synth(c_xdevicefam...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cmpy [\cmpy(c_xdevicefamily="zynq",a_w...]
+Compiling architecture structural of entity c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv [\c_reg_fd_v12_0_6_viv(c_width=32...]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.adder [\adder(c_xdevicefamily="zynq",c_...]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.subtracter [\subtracter(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.butterfly [\butterfly(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_pe [\r2_pe(c_xdevicefamily="zynq",bt...]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_datapath [\r2_datapath(c_xdevicefamily="zy...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111000000001111...]
+Compiling architecture muxf7_v of entity unisim.MUXF7 [muxf7_default]
+Compiling architecture muxf8_v of entity unisim.MUXF8 [muxf8_default]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus16 [\mux_bus16(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.xor_bit_gate [\xor_bit_gate(c_inputs=10)\]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_in_addr [\r2_in_addr(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus4 [\mux_bus4(c_xdevicefamily="zynq"...]
+Compiling architecture xilinx of entity xfft_v9_1_8.xor_bit_gate [\xor_bit_gate(c_inputs=9)\]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_rw_addr [\r2_rw_addr(c_xdevicefamily="zyn...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11001010")(0,7)\]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus2 [\mux_bus2(c_xdevicefamily="zynq"...]
+Compiling architecture structural of entity c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv [\c_reg_fd_v12_0_6_viv(c_sync_pri...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture vcc_v of entity unisim.VCC [vcc_default]
+Compiling architecture xilinx of entity xfft_v9_1_8.twgen_half_sincos [\twgen_half_sincos(c_xdevicefami...]
+Compiling architecture xilinx of entity xfft_v9_1_8.twiddle_gen [\twiddle_gen(c_xdevicefamily="zy...]
+Compiling architecture xilinx of entity xfft_v9_1_8.mux_bus16 [\mux_bus16(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_tw_addr [\r2_tw_addr(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture fde_v of entity unisim.FDE [fde_default]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.equ_rtl [\equ_rtl(c_xdevicefamily="zynq",...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cnt_tc_rtl [\cnt_tc_rtl(c_xdevicefamily="zyn...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.reg_rs_rtl [reg_rs_rtl_default]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10010000000010010000...]
+Compiling architecture xilinx of entity xfft_v9_1_8.equ_rtl [\equ_rtl(c_xdevicefamily="zynq",...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cnt_tc_rtl [\cnt_tc_rtl(c_xdevicefamily="zyn...]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.equ_rtl [\equ_rtl(c_xdevicefamily="zynq",...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cnt_tc_rtl [\cnt_tc_rtl(c_xdevicefamily="zyn...]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_viv [\c_addsub_v12_0_14_viv(c_xdevice...]
+Compiling architecture xilinx of entity xfft_v9_1_8.equ_rtl [\equ_rtl(c_xdevicefamily="zynq")...]
+Compiling architecture xilinx of entity xfft_v9_1_8.cnt_tc_rtl [\cnt_tc_rtl(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.flow_control_c [\flow_control_c(c_xdevicefamily=...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture struct of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_legacy [\c_shift_ram_v12_0_14_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_14.c_shift_ram_v12_0_14_viv [\c_shift_ram_v12_0_14_viv(c_xdev...]
+Compiling architecture xilinx of entity xfft_v9_1_8.shift_ram [\shift_ram(c_xdevicefamily="zynq...]
+Compiling architecture xilinx of entity xfft_v9_1_8.r2_control [\r2_control(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity xfft_v9_1_8.xfft_v9_1_8_c [\xfft_v9_1_8_c(c_xdevicefamily="...]
+Compiling architecture synth of entity xfft_v9_1_8.xfft_v9_1_8_core [\xfft_v9_1_8_core(c_xdevicefamil...]
+Compiling architecture synth of entity xfft_v9_1_8.xfft_v9_1_8_viv [\xfft_v9_1_8_viv(c_xdevicefamily...]
+Compiling architecture xilinx of entity xfft_v9_1_8.xfft_v9_1_8 [\xfft_v9_1_8(c_xdevicefamily="zy...]
+Compiling architecture fft_1024_arch of entity xil_defaultlib.fft_1024 [fft_1024_default]
+Compiling module xil_defaultlib.fft_analyzer
+Compiling module xil_defaultlib.spectrum_bands
+Compiling module xil_defaultlib.rgb_spectrum_map
+Compiling module xil_defaultlib.ws2812_tx(BIT_CYCLES=63,T0H_CYCL...
+Compiling module xil_defaultlib.rgb_music_ring(CLOCK_HZ=50000000...
+Compiling module xil_defaultlib.recognition_decimator
+Compiling module xil_defaultlib.recognition_uart_tx
+Compiling module xil_defaultlib.music_pcm_uart
+Compiling module xil_defaultlib.recognition_uart_rx
+Compiling module xil_defaultlib.song_overlay
+Compiling module xil_defaultlib.lcd_timing_1024
+Compiling module xil_defaultlib.font5x7
+Compiling module xil_defaultlib.spectrum_renderer
+Compiling module xil_defaultlib.lcd_visualizer(RESET_HOLD_CYCLES...
+Compiling module xil_defaultlib.top_music_rgb(STARTUP_CYCLES=32,...
+Compiling module xil_defaultlib.i2c_slave_model
+Compiling module xil_defaultlib.tb_top_music_rgb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_music_rgb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:16 . Memory (MB): peak = 579.203 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '17' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_music_rgb_behav -key {Behavioral:sim_1:Functional:tb_top_music_rgb} -tclbatch {tb_top_music_rgb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_top_music_rgb.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_music_rgb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 579.203 ; gain = 2.766
+PASS tb_top_music_rgb: real MMCM and generated I2S, ROM+MIC+LINE FFT, 50MHz exact GRB timing/colors, codec profile changes, controls, lost-stream clear, reset
+$finish called at time : 49992610 ns : File "R:/sim/tb_top_music_rgb.sv" Line 96
+run: Time (s): cpu = 00:00:03 ; elapsed = 00:07:02 . Memory (MB): peak = 579.203 ; gain = 0.000
+INFO: xsimkernel Simulation Memory Usage: 27868 KB (Peak: 27868 KB), Simulation CPU Usage: 411765 ms
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_top_music_rgb
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_recognition_uart'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_recognition_uart' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_recognition_uart_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_recognition_uart.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_recognition_uart
+"xvhdl --incr --relax -prj tb_recognition_uart_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_recognition_uart_behav xil_defaultlib.tb_recognition_uart xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_recognition_uart_behav xil_defaultlib.tb_recognition_uart xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.recognition_uart_tx
+Compiling module xil_defaultlib.recognition_uart_rx
+Compiling module xil_defaultlib.tb_recognition_uart
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_recognition_uart_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_recognition_uart_behav -key {Behavioral:sim_1:Functional:tb_recognition_uart} -tclbatch {tb_recognition_uart.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_recognition_uart.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_recognition_uart_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+PASS tb_recognition_uart: 500k 8N1, 32 ordered bytes, bad stop, recovery
+$finish called at time : 686831 ns : File "R:/sim/tb_recognition_uart.sv" Line 29
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_recognition_uart
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_recognition_decimator'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_recognition_decimator' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_recognition_decimator_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_recognition_decimator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_recognition_decimator
+"xvhdl --incr --relax -prj tb_recognition_decimator_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_recognition_decimator_behav xil_defaultlib.tb_recognition_decimator xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_recognition_decimator_behav xil_defaultlib.tb_recognition_decimator xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.recognition_decimator
+Compiling module xil_defaultlib.tb_recognition_decimator
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_recognition_decimator_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_recognition_decimator_behav -key {Behavioral:sim_1:Functional:tb_recognition_decimator} -tclbatch {tb_recognition_decimator.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_recognition_decimator.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_recognition_decimator_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+PASS tb_recognition_decimator: all 225 outputs bit-exact vs independent Q16 convolution, warmup/reset
+$finish called at time : 21350400 ns : File "R:/sim/tb_recognition_decimator.sv" Line 26
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_recognition_decimator
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_pcm_uart'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_pcm_uart' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_pcm_uart_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_pcm_uart.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_pcm_uart
+"xvhdl --incr --relax -prj tb_pcm_uart_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_pcm_uart_behav xil_defaultlib.tb_pcm_uart xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_pcm_uart_behav xil_defaultlib.tb_pcm_uart xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.recognition_uart_tx
+Compiling module xil_defaultlib.music_pcm_uart
+Compiling module xil_defaultlib.recognition_uart_rx
+Compiling module xil_defaultlib.tb_pcm_uart
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_pcm_uart_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_pcm_uart_behav -key {Behavioral:sim_1:Functional:tb_pcm_uart} -tclbatch {tb_pcm_uart.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_pcm_uart.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_pcm_uart_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+PASS tb_pcm_uart: four real-500k framed packets, PCM continuity, mode/session reset; host CRC check follows
+$finish called at time : 53803200 ns : File "R:/sim/tb_pcm_uart.sv" Line 26
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_pcm_uart
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_song_overlay'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_song_overlay' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_song_overlay_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_song_overlay.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_song_overlay
+"xvhdl --incr --relax -prj tb_song_overlay_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_song_overlay_behav xil_defaultlib.tb_song_overlay xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_song_overlay_behav xil_defaultlib.tb_song_overlay xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.song_overlay(TIMEOUT_CYCLES=100,...
+Compiling module xil_defaultlib.tb_song_overlay
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_song_overlay_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_song_overlay_behav -key {Behavioral:sim_1:Functional:tb_song_overlay} -tclbatch {tb_song_overlay.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_song_overlay.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_song_overlay_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+PASS tb_song_overlay: host-encoded Chinese bitmap, all 61440 pixels, CRC/mode/epoch guards, atomic bank swap, ACK, timeout, TTL, reset
+$finish called at time : 43078200 ns : File "R:/sim/tb_song_overlay.sv" Line 61
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_song_overlay
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_song_lcd_integration'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13658] Non-Precompiled IP simulation library mode is enabled. The IP library sources will be compiled locally.
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '<VIVADO_INSTALL>/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_song_lcd_integration' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_expected.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/fir_input.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/overlay_test_packet.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/recognition_fir.mem'
+INFO: [SIM-utils-43] Exported 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim/test_tone.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_song_lcd_integration_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "R:/sim/tb_song_lcd_integration.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_song_lcd_integration
+"xvhdl --incr --relax -prj tb_song_lcd_integration_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 4 -d "SIMULATION=" -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_song_lcd_integration_behav xil_defaultlib.tb_song_lcd_integration xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: <VIVADO_INSTALL>/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 4 -d SIMULATION= -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_song_lcd_integration_behav xil_defaultlib.tb_song_lcd_integration xil_defaultlib.glbl -log elaborate.log 
+Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.song_overlay
+Compiling module xil_defaultlib.lcd_timing_1024
+Compiling module xil_defaultlib.font5x7
+Compiling module xil_defaultlib.spectrum_renderer
+Compiling module unisims_ver.ODDR(DDR_CLK_EDGE="SAME_EDGE")
+Compiling module xil_defaultlib.lcd_visualizer(RESET_HOLD_CYCLES...
+Compiling module xil_defaultlib.tb_song_lcd_integration
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_song_lcd_integration_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'R:/vivado/navigator7010_music_rgb_lcd_recognizer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_song_lcd_integration_behav -key {Behavioral:sim_1:Functional:tb_song_lcd_integration} -tclbatch {tb_song_lcd_integration.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_song_lcd_integration.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_song_lcd_integration_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 592.969 ; gain = 2.957
+PASS tb_song_lcd_integration: full 1024x600 frame, all Unicode overlay pixels, unchanged spectrum, 50MHz-domain pipeline alignment
+$finish called at time : 33812340100 ps : File "R:/sim/tb_song_lcd_integration.sv" Line 26
+INFO: [Simtcl 6-16] Simulation closed
+TEST_PASSED: tb_song_lcd_integration
+CHECKS_COMPLETE: simulate
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  1 23:29:18 2026...

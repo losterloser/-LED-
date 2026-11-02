@@ -1,0 +1,15 @@
+test_missing_report_is_not_pass (test_report_checker.ReportChecks.test_missing_report_is_not_pass) ... ok
+test_negative_hold_rejected (test_report_checker.ReportChecks.test_negative_hold_rejected) ... ok
+test_negative_setup_rejected (test_report_checker.ReportChecks.test_negative_setup_rejected) ... ok
+test_resource_budget_rejected (test_report_checker.ReportChecks.test_resource_budget_rejected) ... ok
+test_unconstrained_endpoint_rejected (test_report_checker.ReportChecks.test_unconstrained_endpoint_rejected) ... ok
+test_valid_reports (test_report_checker.ReportChecks.test_valid_reports) ... ok
+test_existing_database_is_preserved (test_restore_library.RestoreChecks.test_existing_database_is_preserved) ... ok
+test_restore_known_database (test_restore_library.RestoreChecks.test_restore_known_database) ... ok
+test_wrong_digest_rejected (test_restore_library.RestoreChecks.test_wrong_digest_rejected) ... ok
+test_wrong_size_rejected (test_restore_library.RestoreChecks.test_wrong_size_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.057s
+
+OK

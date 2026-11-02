@@ -1,0 +1,82 @@
+{
+  "title": "小镇姑娘",
+  "artist": "陶喆",
+  "mode": "LINE IN",
+  "playback_metadata": "reports\\hardware_acceptance_20261031\\line_first_playback.json",
+  "live_log": "reports\\live_recognition_20261031_200054.jsonl",
+  "recognized_events": 26,
+  "recognized_events_after_12_seconds": 18,
+  "first_confirmed_pc_log_delay_seconds": 6.153,
+  "timing_definition": "Host playback invocation wall time to first confirmed PC log event; not a separately measured LCD latency",
+  "first_match": {
+    "status": "已识别",
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "key": [
+      2,
+      2
+    ],
+    "generation": 3,
+    "gaps": 2,
+    "bad_crc": 2,
+    "dropped": 0,
+    "display_ack": 360,
+    "port": "COM4",
+    "match": {
+      "recognized": true,
+      "title": "小镇姑娘",
+      "artist": "陶喆",
+      "track_id": 1,
+      "votes": 643,
+      "query_hashes": 3431,
+      "anchor_count": 154,
+      "span_seconds": 4.629,
+      "score": 0.1874,
+      "runner_up_votes": 28,
+      "offset_seconds": 42.208,
+      "reason": "已识别"
+    },
+    "time": "2026-10-31T20:04:00.997+08:00"
+  },
+  "last_match": {
+    "status": "已识别",
+    "title": "小镇姑娘",
+    "artist": "陶喆",
+    "key": [
+      2,
+      2
+    ],
+    "generation": 3,
+    "gaps": 2,
+    "bad_crc": 2,
+    "dropped": 0,
+    "display_ack": 385,
+    "port": "COM4",
+    "match": {
+      "recognized": true,
+      "title": "小镇姑娘",
+      "artist": "陶喆",
+      "track_id": 1,
+      "votes": 727,
+      "query_hashes": 4369,
+      "anchor_count": 233,
+      "span_seconds": 7.861,
+      "score": 0.1664,
+      "runner_up_votes": 19,
+      "offset_seconds": 60.512,
+      "reason": "已识别"
+    },
+    "time": "2026-10-31T20:04:19.558+08:00"
+  },
+  "crc_errors_max": 2,
+  "dropped_max": 0,
+  "user_observation": "User confirmed both PC and LCD correctly show 小镇姑娘 and 陶喆, spectrum normal",
+  "physical_line_in_song_passed": true,
+  "lcd_song_title_artist_user_accepted": true,
+  "overall_line_matrix_complete": false,
+  "mic_tested": false,
+  "crc_errors_before_playback": 2,
+  "crc_error_delta_during_playback": 0,
+  "window_prefilled_with_silence_before_playback": true,
+  "mode_transition_note": "Two cumulative CRC increments coincide exactly with ROM-to-MIC and MIC-to-LINE session changes; no CRC increment during stable LINE playback"
+}

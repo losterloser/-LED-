@@ -1,0 +1,1 @@
+{"(0, 255, 255)": {"bbox": [458, 310, 502, 520], "area": 9240}, "(128, 0, 255)": {"bbox": [714, 380, 758, 520], "area": 6160}, "image_size": [1024, 600], "source": "XSim RGB output from real FFT + LCD integration; not a physical screen photograph", "ppm_sha256": "69bb021f76b8f2eb3b7f41e8a8d57a2ea29522c0b0ef18e14f5a8b512a1513d9"}
